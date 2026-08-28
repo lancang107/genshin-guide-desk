@@ -1,0 +1,195 @@
+{
+  "character": {
+    "name": "奥黛塔",
+    "element": "cryo",
+    "weaponType": "sword",
+    "rarity": 5
+  },
+  "ascension": {
+    "localSpecialty": {
+      "name": "霜仙花",
+      "totalNeeded": 168,
+      "locations": ["至冬·月球区域", "至冬·月之高地", "至冬·霜殛寒峰"],
+      "growthTime": 48
+    },
+    "normalBoss": {
+      "name": "不灭衍生造物",
+      "drop": "焰中不灭花枝",
+      "totalNeeded": 46,
+      "resinCost": 40
+    },
+    "elementalStone": {
+      "series": "哀叙冰玉",
+      "totalNeeded": 6,
+      "source": "boss"
+    },
+    "commonEnemy": {
+      "name": "肌生晶石系列（肌生晶石的妖精掉落）",
+      "totalNeeded": 36
+    }
+  },
+  "talents": [
+    {
+      "talentName": "normal-attack",
+      "book": {
+        "name": "慈爱系列",
+        "totalNeeded": 63,
+        "availableDays": ["mon", "thu", "sun"],
+        "domainName": "荒坠的圣迹",
+        "resinCost": 20
+      },
+      "weeklyBoss": {
+        "name": "多托雷「左道的胜义尊」",
+        "drop": "扭曲的枯枝",
+        "totalNeeded": 6,
+        "resinCost": 60
+      },
+      "commonEnemy": {
+        "name": "肌生晶石系列",
+        "totalNeeded": 59
+      }
+    },
+    {
+      "talentName": "elemental-skill",
+      "book": {
+        "name": "慈爱系列",
+        "totalNeeded": 63,
+        "availableDays": ["mon", "thu", "sun"],
+        "domainName": "荒坠的圣迹",
+        "resinCost": 20
+      },
+      "weeklyBoss": {
+        "name": "多托雷「左道的胜义尊」",
+        "drop": "扭曲的枯枝",
+        "totalNeeded": 6,
+        "resinCost": 60
+      },
+      "commonEnemy": {
+        "name": "肌生晶石系列",
+        "totalNeeded": 59
+      }
+    },
+    {
+      "talentName": "elemental-burst",
+      "book": {
+        "name": "慈爱系列",
+        "totalNeeded": 63,
+        "availableDays": ["mon", "thu", "sun"],
+        "domainName": "荒坠的圣迹",
+        "resinCost": 20
+      },
+      "weeklyBoss": {
+        "name": "多托雷「左道的胜义尊」",
+        "drop": "扭曲的枯枝",
+        "totalNeeded": 6,
+        "resinCost": 60
+      },
+      "commonEnemy": {
+        "name": "肌生晶石系列",
+        "totalNeeded": 59
+      }
+    }
+  ],
+  "weapon": {
+    "name": "白湖冬羽",
+    "rarity": 5,
+    "ascension": {
+      "domainMaterial": {
+        "name": "荒野树妖系列（至冬武器秘境）",
+        "totalNeeded": 39,
+        "availableDays": ["mon", "thu", "sun"],
+        "domainName": "至冬武器秘境（待确认名称）",
+        "resinCost": 20
+      },
+      "commonEnemy": {
+        "name": "肌生晶石系列",
+        "totalNeeded": 91
+      }
+    }
+  },
+  "misc": {
+    "expBooks": {
+      "totalNeeded": 415,
+      "resinCost": 20
+    },
+    "mora": {
+      "totalNeeded": 7400000,
+      "resinCost": 20
+    },
+    "artifactDomain": {
+      "name": "秘境「逆悬的冰河」",
+      "set": "炉火融炼之心（4件套，辅助首选）；影中沉凝的幻灭（4件套，队内已有炉火套时备选）"
+    }
+  },
+  "verification": {
+    "checkedAt": "2026-08-17",
+    "sources": [
+      {
+        "url": "https://ys.mihoyo.com/main/news/detail/165690",
+        "title": "「冰绡鹄影」祈愿：「翾风回雪·奥黛塔(冰)」概率UP！",
+        "kind": "official"
+      },
+      {
+        "url": "https://www.miyoushe.com/ys/article/77425991",
+        "title": "【V7.0】「奥黛塔」全攻略 | 出装配队 | 养成机制",
+        "kind": "miyoushe"
+      }
+    ]
+  },
+  "guideLinks": [
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1WMgp6aEf7",
+      "title": "奥黛塔该怎么养？至冬星反应的通拐？保姆级养成攻略！",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1EHgs6aEi8",
+      "title": "白与黑的变奏舞 奥黛塔养成？两周的经纪人！",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1bZgH6uEAy",
+      "title": "7.0奥黛塔强度实测",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1QhgF67ENn",
+      "title": "奥黛塔突破材料霜仙花宝箱开启点",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1RpgF6XEkA",
+      "title": "奥黛塔突破材料 霜仙花2分钟39个",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1HegH6dEWL",
+      "title": "速刷肌生晶石的妖精/幻造晶鳞石/幻造裂晶/幻造萤屑 奥黛塔天赋突破材料",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1DmuC6aEPE",
+      "title": "至冬7.0奥黛塔天赋材料副本位置",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1SBgF6kEGn",
+      "title": "奥黛塔武器白湖冬羽突破材料荒野树妖连锁机关路线",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1MCgs6jEK4",
+      "title": "奥黛塔天赋材料收益线 8分钟331白色材料高效讨伐",
+      "creator": ""
+    }
+  ]
+}

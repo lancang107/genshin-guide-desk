@@ -1,0 +1,51 @@
+{
+  "version": "7.0",
+  "phaseCount": 2,
+  "startDate": "2026-08-12",
+  "endDate": "2026-09-22",
+  "phases": [
+    {
+      "phase": 1,
+      "bannerName": "7.0版本上半祈愿",
+      "characters": [
+        {
+          "name": "奥黛塔",
+          "rarity": 5,
+          "element": "cryo",
+          "weaponType": "sword",
+          "type": "limited"
+        },
+        {
+          "name": "阿蕾奇诺",
+          "rarity": 5,
+          "element": "pyro",
+          "weaponType": "polearm",
+          "type": "limited"
+        }
+      ],
+      "weaponBanner": [
+        {
+          "name": "白湖冬羽",
+          "rarity": 5
+        },
+        {
+          "name": "赤月之形",
+          "rarity": 5
+        }
+      ],
+      "startDate": "2026-08-12",
+      "endDate": "2026-09-01",
+      "durationDays": 20
+    },
+    {
+      "phase": 2,
+      "bannerName": "7.0版本下半祈愿",
+      "characters": [],
+      "weaponBanner": [],
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-22",
+      "durationDays": 21
+    }
+  ],
+  "notes": "7.0版本至冬篇开放。上半卡池为奥黛塔(冰·单手剑)和阿蕾奇诺/仆人(火·长柄武器)。下半卡池信息待更新。新区域：至冬国。"
+}

@@ -1,0 +1,50 @@
+{
+  "archon-quest-7.0": [
+    "nod-krai-archon-7-act1",
+    "nod-krai-archon-7-act2"
+  ],
+  "world-quest-snezhnaya": [
+    "nod-krai-wq-palace-collapsing",
+    "nod-krai-wq-abode-of-life",
+    "nod-krai-wq-hesperides",
+    "nod-krai-wq-palace-and-tomb",
+    "nod-krai-wq-great-heart-chain",
+    "nod-krai-wq-vile-streets",
+    "nod-krai-wq-forestry-snowfield",
+    "nod-krai-wq-under-the-waves",
+    "nod-krai-wq-ice-mirror-fragment",
+    "nod-krai-wq-frost-spirit-troubles",
+    "nod-krai-wq-hunters-cabin",
+    "nod-krai-wq-theater",
+    "nod-krai-wq-tide-song-cave",
+    "nod-krai-wq-tide-echo",
+    "nod-krai-wq-childhood-joy",
+    "nod-krai-wq-like-snowball",
+    "nod-krai-wq-simple-errand",
+    "nod-krai-wq-range-and-shadow",
+    "nod-krai-wq-special-selection",
+    "nod-krai-wq-adventure-far-away",
+    "nod-krai-wq-ball-ball-sparrowball"
+  ],
+  "exploration-snezhnaya-chests": [
+    "nod-krai-chest-moon-one",
+    "nod-krai-chest-moon-four",
+    "nod-krai-chest-moon-eight",
+    "snezh-chest-mainland-7-0"
+  ],
+  "exploration-cryo-oculi": [
+    "snezh-oculus-mainland-7-0",
+    "nod-krai-lunar-oculus-complete"
+  ],
+  "achievements-7.0": [
+    "snezh-achievements-7-0"
+  ],
+  "domain-first-clears-snezhnaya": [
+    "snezh-domain-frost-sanctuary"
+  ],
+  "offerings-snezhnaya": [
+    "nod-krai-offering-hunters-cabin",
+    "nod-krai-offering-tide-song-cave",
+    "nod-krai-offering-korolevsky-theater"
+  ]
+}

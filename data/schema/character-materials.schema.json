@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "character-materials.schema.json",
+  "title": "Character Materials",
+  "description": "Complete material list for building a character to max level, talents, and weapon",
+  "type": "object",
+  "required": ["character", "ascension", "talents", "weapon", "misc"],
+  "properties": {
+    "character": {
+      "type": "object",
+      "required": ["name", "element", "weaponType", "rarity"],
+      "properties": {
+        "name": { "type": "string" },
+        "element": {
+          "type": "string",
+          "enum": ["anemo", "geo", "electro", "dendro", "hydro", "pyro", "cryo"]
+        },
+        "weaponType": {
+          "type": "string",
+          "enum": ["sword", "claymore", "polearm", "bow", "catalyst"]
+        },
+        "rarity": { "type": "integer", "enum": [4, 5] }
+      }
+    },
+    "ascension": {
+      "type": "object",
+      "description": "Character ascension materials (level 1 to 90)",
+      "required": ["localSpecialty", "normalBoss", "elementalStone", "commonEnemy"],
+      "properties": {
+        "localSpecialty": {
+          "type": "object",
+          "required": ["name", "totalNeeded", "locations"],
+          "properties": {
+            "name": { "type": "string", "description": "e.g. \"霓裳花\"" },
+            "totalNeeded": { "type": "integer" },
+            "locations": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Where to find, e.g. [\"璃月港\", \"望舒客栈\"]"
+            },
+            "growthTime": {
+              "type": "integer",
+              "description": "Refresh time in hours (typically 48)"
+            }
+          }
+        },
+        "normalBoss": {
+          "type": "object",
+          "required": ["name", "drop", "totalNeeded"],
+          "properties": {
+            "name": { "type": "string", "description": "Boss name, e.g. \"无相之雷\"" },
+            "drop": { "type": "string", "description": "Drop item name" },
+            "totalNeeded": { "type": "integer" },
+            "resinCost": { "type": "integer", "description": "Resin per run, typically 40" }
+          }
+        },
+        "elementalStone": {
+          "type": "object",
+          "required": ["series", "totalNeeded"],
+          "properties": {
+            "series": {
+              "type": "string",
+              "description": "Stone series name, e.g. \"涤净青金\" (hydro series)"
+            },
+            "totalNeeded": { "type": "integer" },
+            "source": {
+              "type": "string",
+              "enum": ["boss", "alchemy", "event", "parametric-transformer"],
+              "description": "Primary acquisition method"
+            }
+          }
+        },
+        "commonEnemy": {
+          "type": "object",
+          "required": ["name", "totalNeeded"],
+          "properties": {
+            "name": { "type": "string", "description": "Enemy drop name, e.g. \"破损的面具\"" },
+            "totalNeeded": { "type": "integer" }
+          }
+        }
+      }
+    },
+    "talents": {
+      "type": "array",
+      "description": "Talent book + weekly boss for each talent (normal skill, burst, passive)",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["talentName", "book", "weeklyBoss", "commonEnemy"],
+        "properties": {
+          "talentName": {
+            "type": "string",
+            "description": "Which talent: normal-attack, elemental-skill, elemental-burst"
+          },
+          "book": {
+            "type": "object",
+            "required": ["name", "totalNeeded", "availableDays"],
+            "properties": {
+              "name": { "type": "string", "description": "Talent book series, e.g. \"黄金\"" },
+              "totalNeeded": { "type": "integer" },
+              "availableDays": {
+                "type": "array",
+                "items": { "type": "string", "enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"] },
+                "description": "Days the domain is open. Sun = all books available."
+              },
+              "domainName": { "type": "string", "description": "Domain name" },
+              "resinCost": { "type": "integer", "description": "Resin per run, typically 20" }
+            }
+          },
+          "weeklyBoss": {
+            "type": "object",
+            "required": ["name", "drop", "totalNeeded"],
+            "properties": {
+              "name": { "type": "string", "description": "Weekly boss name" },
+              "drop": { "type": "string", "description": "Specific drop item" },
+              "totalNeeded": { "type": "integer" },
+              "resinCost": { "type": "integer", "description": "Resin per run, typically 60" }
+            }
+          },
+          "commonEnemy": {
+            "type": "object",
+            "required": ["name", "totalNeeded"],
+            "properties": {
+              "name": { "type": "string" },
+              "totalNeeded": { "type": "integer" }
+            }
+          }
+        }
+      }
+    },
+    "weapon": {
+      "type": "object",
+      "description": "Weapon ascension materials",
+      "required": ["name", "rarity", "ascension"],
+      "properties": {
+        "name": { "type": "string" },
+        "rarity": { "type": "integer", "enum": [3, 4, 5] },
+        "ascension": {
+          "type": "object",
+          "required": ["domainMaterial", "commonEnemy"],
+          "properties": {
+            "domainMaterial": {
+              "type": "object",
+              "required": ["name", "totalNeeded", "availableDays"],
+              "properties": {
+                "name": { "type": "string", "description": "Weapon material series" },
+                "totalNeeded": { "type": "integer" },
+                "availableDays": {
+                  "type": "array",
+                  "items": { "type": "string", "enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"] }
+                },
+                "domainName": { "type": "string" },
+                "resinCost": { "type": "integer", "description": "Typically 20" }
+              }
+            },
+            "commonEnemy": {
+              "type": "object",
+              "required": ["name", "totalNeeded"],
+              "properties": {
+                "name": { "type": "string" },
+                "totalNeeded": { "type": "integer" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "misc": {
+      "type": "object",
+      "description": "General materials needed for both character and weapon",
+      "properties": {
+        "expBooks": {
+          "type": "object",
+          "required": ["totalNeeded"],
+          "properties": {
+            "totalNeeded": { "type": "integer", "description": "Total hero's wit count" },
+            "resinCost": { "type": "integer", "description": "Resin per ley line run, typically 20" }
+          }
+        },
+        "mora": {
+          "type": "object",
+          "required": ["totalNeeded"],
+          "properties": {
+            "totalNeeded": { "type": "integer", "description": "Total mora needed" },
+            "resinCost": { "type": "integer", "description": "Resin per ley line run, typically 20" }
+          }
+        },
+        "artifactDomain": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string", "description": "Recommended artifact domain" },
+            "set": { "type": "string", "description": "Recommended artifact set name" },
+            "resinCost": { "type": "integer", "description": "Typically 40 (condensed 40)" }
+          }
+        }
+      }
+    },
+    "guideLinks": {
+      "type": "array",
+      "description": "Links to character build guides",
+      "items": {
+        "type": "object",
+        "required": ["platform", "url", "title"],
+        "properties": {
+          "platform": { "type": "string", "enum": ["bilibili", "miyoushe", "youtube", "other"] },
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "creator": { "type": "string" }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "checkedAt": { "type": "string", "format": "date" },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["url", "title", "kind"],
+            "properties": {
+              "url": { "type": "string", "format": "uri" },
+              "title": { "type": "string" },
+              "kind": { "type": "string", "enum": ["official", "miyoushe", "community"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "character": {
+    "name": "阿蕾奇诺",
+    "element": "pyro",
+    "weaponType": "polearm",
+    "rarity": 5
+  },
+  "ascension": {
+    "localSpecialty": {
+      "name": "虹彩蔷薇",
+      "totalNeeded": 168,
+      "locations": ["枫丹·廷区周边", "枫丹·新枫丹科学院", "枫丹·伊黎耶林区"],
+      "growthTime": 48
+    },
+    "normalBoss": {
+      "name": "铁甲熔炉",
+      "drop": "炉心之镜",
+      "totalNeeded": 46,
+      "resinCost": 40
+    },
+    "elementalStone": {
+      "series": "燃愿玛瑙",
+      "totalNeeded": 6,
+      "source": "boss"
+    },
+    "commonEnemy": {
+      "name": "徽印系列（猎刀鳐/机关/机担任者掉落）",
+      "totalNeeded": 36
+    }
+  },
+  "talents": [
+    {
+      "talentName": "normal-attack",
+      "book": {
+        "name": "秩序系列（秩序的教导/秩序的指引/秩序的哲学）",
+        "totalNeeded": 63,
+        "availableDays": ["tue", "fri", "sun"],
+        "domainName": "忘却之峡（苍岩试炼场）",
+        "resinCost": 20
+      },
+      "weeklyBoss": {
+        "name": "仆人（阿蕾奇诺）周本「孤暝厄月」",
+        "drop": "违逆之徽",
+        "totalNeeded": 6,
+        "resinCost": 60
+      },
+      "commonEnemy": {
+        "name": "徽印系列",
+        "totalNeeded": 59
+      }
+    },
+    {
+      "talentName": "elemental-skill",
+      "book": {
+        "name": "秩序系列",
+        "totalNeeded": 63,
+        "availableDays": ["tue", "fri", "sun"],
+        "domainName": "忘却之峡（苍岩试炼场）",
+        "resinCost": 20
+      },
+      "weeklyBoss": {
+        "name": "仆人周本「孤暝厄月」",
+        "drop": "违逆之徽",
+        "totalNeeded": 6,
+        "resinCost": 60
+      },
+      "commonEnemy": {
+        "name": "徽印系列",
+        "totalNeeded": 59
+      }
+    },
+    {
+      "talentName": "elemental-burst",
+      "book": {
+        "name": "秩序系列",
+        "totalNeeded": 63,
+        "availableDays": ["tue", "fri", "sun"],
+        "domainName": "忘却之峡（苍岩试炼场）",
+        "resinCost": 20
+      },
+      "weeklyBoss": {
+        "name": "仆人周本「孤暝厄月」",
+        "drop": "违逆之徽",
+        "totalNeeded": 6,
+        "resinCost": 60
+      },
+      "commonEnemy": {
+        "name": "徽印系列",
+        "totalNeeded": 59
+      }
+    }
+  ],
+  "weapon": {
+    "name": "赤月之形",
+    "rarity": 5,
+    "ascension": {
+      "domainMaterial": {
+        "name": "无垢系列（无垢之海之冠/无垢之海的灯盏/无垢之海的酒盏/无垢之海的光芽）",
+        "totalNeeded": 39,
+        "availableDays": ["mon", "thu", "sun"],
+        "domainName": "深潮的余响（枫丹武器秘境）",
+        "resinCost": 20
+      },
+      "commonEnemy": {
+        "name": "徽印系列",
+        "totalNeeded": 91
+      }
+    }
+  },
+  "misc": {
+    "expBooks": {
+      "totalNeeded": 415,
+      "resinCost": 20
+    },
+    "mora": {
+      "totalNeeded": 7400000,
+      "resinCost": 20
+    },
+    "artifactDomain": {
+      "name": "秘境「熔铁的孤堡」",
+      "set": "谐律异想断套（4件套）或 回忆之注连（过渡）"
+    }
+  },
+  "guideLinks": [
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1dH2MBAEGu",
+      "title": "阿蕾奇诺培养材料-等级-天赋-武器（赤月之形）",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1qrw8e5ERM",
+      "title": "仆人阿蕾奇诺培养攻略 培养材料/武器推荐/圣遗物推荐/配队推荐/技能解析/命座解析",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1bP3968EFv",
+      "title": "虹彩蔷薇共86+4个！林尼、阿蕾奇诺的突破材料",
+      "creator": ""
+    },
+    {
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1fyygBMENi",
+      "title": "虹彩蔷薇 6分钟75个！全程标点+分集路线+语音领跑",
+      "creator": ""
+    }
+  ]
+}

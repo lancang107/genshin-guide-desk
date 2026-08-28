@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1f2927" />
+    <title>原石筹备 | 原神 7.0</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#overview" aria-label="原石筹备首页">
+        <span class="brand-mark">O</span>
+        <span>
+          <strong>原石筹备</strong>
+          <small>Genshin planning desk</small>
+        </span>
+      </a>
+      <div class="topbar-meta">
+        <span class="live-dot"></span>
+        <span id="top-version">正在读取版本</span>
+        <button class="text-button" id="reset-progress" type="button">清空本套餐进度</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-band">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">CURRENT PREPARATION WINDOW</p>
+            <h1>把有限的游戏时间，换成更确定的抽卡准备。</h1>
+            <p class="hero-lede">按卡池剩余时间、任务耗时和信息可信度整理一份能真正执行的清单。一次性资源会逐步从“整片地图”拆成值得先做的任务批次。</p>
+          </div>
+          <div class="window-panel">
+            <div class="panel-label">上半卡池结束</div>
+            <div id="countdown" class="countdown">--天 --小时</div>
+            <div id="phase-window" class="muted">--</div>
+            <div class="progress-track"><span id="window-progress"></span></div>
+            <div class="window-foot"><span id="window-left">剩余时间计算中</span><span id="window-date">--</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-shell">
+        <aside class="package-sidebar">
+          <div class="sidebar-heading">
+            <div>
+              <p class="eyebrow">YOUR ROUTE</p>
+              <h2>选择攻略套餐</h2>
+            </div>
+            <span class="version-chip" id="sidebar-version">7.0</span>
+          </div>
+          <div id="package-list" class="package-list" aria-label="攻略套餐列表"></div>
+          <div class="sidebar-note">
+            <span class="note-icon">i</span>
+            <p>套餐是执行策略，不是收益保证。网站会把确认、估算、条件性和待确认资源分开计算。</p>
+          </div>
+        </aside>
+
+        <section class="workspace-main">
+          <div class="workspace-heading">
+            <div>
+              <p class="eyebrow" id="package-audience">PACKAGE</p>
+              <h2 id="package-title">正在加载套餐</h2>
+              <p id="package-summary" class="muted"></p>
+            </div>
+            <div class="heading-actions">
+              <button class="outline-button" id="sources-jump" type="button">查看全部来源</button>
+            </div>
+          </div>
+
+          <nav class="view-tabs" aria-label="工作台视图">
+            <button class="view-tab is-active" data-tab="overview" type="button">总览</button>
+            <button class="view-tab" data-tab="tasks" type="button">任务清单</button>
+            <button class="view-tab" data-tab="materials" type="button">养成计划</button>
+            <button class="view-tab" data-tab="sources" type="button">来源库</button>
+            <button class="view-tab" data-tab="catalog" type="button">资源目录</button>
+          </nav>
+
+          <div id="app-content" class="app-content" aria-live="polite">
+            <div class="loading-state">正在读取版本数据...</div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>数据版本 <strong id="footer-version">--</strong></span>
+      <span>进度仅保存在当前浏览器</span>
+      <span>信息状态优先于数字大小</span>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

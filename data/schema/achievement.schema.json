@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "achievement.schema.json",
+  "title": "Achievement Intake Record",
+  "description": "A version-scoped achievement record. Initial-list records are not eligible for package reward totals until their reward and overlap information is verified.",
+  "type": "object",
+  "required": ["id", "title", "gameCategoryId", "versionIntroduced", "recordStatus", "availability", "sourceEvidenceIds"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "gameCategoryId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "versionIntroduced": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "recordStatus": { "type": "string", "enum": ["initial-list", "game-verified", "published"] },
+    "availability": { "type": "string", "enum": ["reported-available", "not-currently-available", "unknown"] },
+    "rewardPrimogems": { "type": ["integer", "null"], "minimum": 0 },
+    "completionType": { "type": "string", "enum": ["unclassified", "quest-linked", "exploration-linked", "combat", "co-op", "system-progression", "other"] },
+    "overlapPolicy": { "type": "string", "enum": ["unreviewed", "separate", "included-in-prerequisite", "conditional"] },
+    "sourceEvidenceIds": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "note": { "type": "string" }
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "nod-krai-archon-7-act1",
+    "kind": "archon-quest",
+    "title": "第七章·第一幕「无神怜爱的雪国」",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 30,
+      "intertwinedFates": 1,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 213,600",
+        "大英雄的经验 21",
+        "任务内3个一次性秘境宝箱另计"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 120,
+      "typical": 120,
+      "max": 120
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "mondstadt-archon-act3"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1MuuC6bEAz",
+        "title": "【原神】无神怜爱的雪国·至冬7.0魔神任务第一幕副本宝箱",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "已确认每幕主要奖励为30原石和1个纠缠之缘，预计120分钟。前置为冒险等阶18级且完成魔神任务序章第三幕；任务内3个一次性秘境宝箱不计入本条。"
+    }
+  },
+  {
+    "id": "nod-krai-archon-7-act2",
+    "kind": "archon-quest",
+    "title": "第七章·第二幕「死魂灵的夜曲」",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 30,
+      "intertwinedFates": 1,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 233,900",
+        "大英雄的经验 22",
+        "任务内4个一次性秘境宝箱另计"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 150,
+      "typical": 150,
+      "max": 150
+    },
+    "difficulty": "medium",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1DdgG6UEpA",
+        "title": "【原神】死魂灵的夜曲·至冬7.0魔神任务第二幕副本宝箱",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "已确认每幕主要奖励为30原石和1个纠缠之缘，预计150分钟。任务内4个一次性秘境宝箱不计入本条。"
+    }
+  }
+]

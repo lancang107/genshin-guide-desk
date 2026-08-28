@@ -1,0 +1,125 @@
+[
+  {
+    "id": "ev-nod-krai-007",
+    "source": { "kind": "miyoushe", "url": "https://www.miyoushe.com/ys/article/77425401", "title": "【7.0】版本新增任务及接取方式介绍", "creator": "FTFuture" },
+    "collectedAt": "2026-08-19",
+    "notes": "文章最后编辑于8月20日。确认7.0新增23条常驻任务的名称、主要奖励、预计用时与接取条件；包含8月20日补入的“哐哐当当雀雀球”。"
+  },
+  {
+    "id": "ev-snezh-001",
+    "source": { "kind": "official", "url": "https://ys.mihoyo.com/main/news/detail/165690", "title": "「冰绡鹄影」祈愿：「翾风回雪·奥黛塔(冰)」概率UP！" },
+    "collectedAt": "2026-08-17",
+    "notes": "7.0上半卡池祈愿公告，确认奥黛塔和阿蕾奇诺为限定5星角色"
+  },
+  {
+    "id": "ev-snezh-002",
+    "source": { "kind": "miyoushe", "url": "https://www.miyoushe.com/ys/article/77425991", "title": "【V7.0】「奥黛塔」全攻略 | 出装配队 | 养成机制" },
+    "collectedAt": "2026-08-17",
+    "notes": "米游社奥黛塔攻略帖，包含BOSS、天赋、周本、圣遗物信息"
+  },
+  {
+    "id": "ev-snezh-003",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV1VYgp6LEAh", "title": "原神7.0居然有这么多原石", "creatorId": "" },
+    "collectedAt": "2026-08-17",
+    "notes": "7.0版本原石总览视频，包含版本福利和探索原石估算"
+  },
+  {
+    "id": "ev-snezh-004",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV1XXN16wEre", "title": "【月球全宝箱】打完能有多少原石和资源？月球/月之高地/月之八/一条龙", "creatorId": "" },
+    "collectedAt": "2026-08-17",
+    "notes": "至冬月球区域全宝箱一条龙跟跑视频，含宝箱数量和原石统计"
+  },
+  {
+    "id": "ev-snezh-005",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV14NkMBgEJD", "title": "【挪德卡莱月之四】一条龙跟跑实践！共计原石2911+7相遇之缘", "creatorId": "" },
+    "collectedAt": "2026-08-17",
+    "notes": "挪德卡莱区域一条龙跟跑，含精确原石数量2911和7个相遇之缘"
+  },
+  {
+    "id": "ev-snezh-006",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV19eT76tE8M", "title": "【原神宝箱全收集】挪德卡莱月之八(成就数224)杜南纳深坑+霜月/精准分类/路线规划/挪德卡莱宝箱攻略/月之印获取途径/原神6.7", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-20", "sourceUrl": "https://space.bilibili.com/431073645/upload/video" } },
+    "collectedAt": "2026-08-20",
+    "notes": "通过影月月本人 B 站空间核验为本人投稿；视频标题声明覆盖杜南纳深坑和“霜月”，时长为2小时26分59秒。"
+  },
+  {
+    "id": "ev-snezh-007",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV1BMgj6MEz4", "title": "【原神一条龙全收集】至冬7.0（成就数345/冰神瞳140/摩拉120/影生翼滴58）", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-20", "sourceUrl": "https://space.bilibili.com/431073645/upload/video" } },
+    "collectedAt": "2026-08-20",
+    "notes": "通过影月月本人 B 站空间核验为本人投稿；视频声明覆盖至冬本土五个子区域，并标注成就、冰神瞳、摩拉箱等收集数量。"
+  },
+  {
+    "id": "ev-snezh-008",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV1k3p5zDENe", "title": "【原神宝箱全收集】挪德卡莱月之一(成就数299)伦波岛+希汐岛+帕哈岛/精准分类/路线规划/挪德卡莱宝箱攻略/月之印获取途径/原神6.0", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-20", "sourceUrl": "https://space.bilibili.com/431073645/upload/video" } },
+    "collectedAt": "2026-08-20",
+    "notes": "通过影月月本人视频页与投稿空间核验为本人投稿；视频标题声明覆盖伦波岛、希汐岛、帕哈岛，时长为5小时50分47秒。"
+  },
+  {
+    "id": "ev-snezh-009",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV17jkPBjELn", "title": "【原神宝箱全收集】挪德卡莱月之四(成就数229)虚海望+逐浪野+烟硌山峰/精准分类/路线规划/挪德卡莱宝箱攻略/月之印获取途径/原神6.3", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-20", "sourceUrl": "https://space.bilibili.com/431073645/upload/video" } },
+    "collectedAt": "2026-08-20",
+    "notes": "通过影月月本人视频页与投稿空间核验为本人投稿；视频标题声明覆盖虚海望、逐浪野、烟硌山峰，时长为5小时30分08秒。"
+  },
+  {
+    "id": "ev-snezh-010",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV131b26FE1u", "title": "【原神至冬冰神瞳】(140已完结)散失的冰神瞳全收集/分区域收集/贴心领跑防迷路/全网最贴心的至冬冰神瞳攻略", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-20", "sourceUrl": "https://space.bilibili.com/431073645/upload/video" } },
+    "collectedAt": "2026-08-20",
+    "notes": "通过影月月本人视频页与投稿空间核验为本人投稿；视频说明确认冰神瞳共140个，可供奉至七天神像6级多15个，并列明7.0开图主线前置。合集由22个地点分段组成，总时长1小时26分15秒；本土五区覆盖范围与同作者至冬7.0一条龙声明交叉确认。"
+  },
+  {
+    "id": "ev-snezh-011",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV11vHizDEfK/", "title": "【原神挪德卡莱月神瞳】(271已完结)散失的月神瞳全收集/分区域收集/贴心领跑防迷路/全网最贴心的挪德卡莱月神瞳攻略", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-21", "sourceUrl": "https://space.bilibili.com/431073645/upload/video" } },
+    "collectedAt": "2026-08-21",
+    "notes": "通过影月月本人视频页与投稿空间核验；46 段合集已完结，共 271 个月神瞳，视频说明依次列出月之一（1-112）、月之四（113-192）、月之八（193-271）的前置与供奉进度。分段总时长为 2 小时 57 分 54 秒。"
+  },
+  {
+    "id": "ev-geo-map-switch-001",
+    "source": { "kind": "official", "url": "https://act.mihoyo.com/ys/app/interactive-map/index.html?lang=zh-cn#/map/2", "title": "原神官方互动地图" },
+    "collectedAt": "2026-08-21",
+    "notes": "官方互动地图“切换”菜单可独立选择至冬、挪德卡莱、渊下宫、层岩巨渊·地下矿区、旧日之海、远古圣山、空之神殿和霜月等地图区域；霜月已据此从待地理编码状态改为已确认。"
+  },
+  {
+    "id": "ev-geo-map-lunar-oculi-001",
+    "source": { "kind": "official", "url": "https://waf-api-takumi.mihoyo.com/common/map_user/ys_obc/v2/map/label/tree?map_id=2&app_sn=ys_obc&lang=zh-cn", "title": "原神官方互动地图标签目录" },
+    "collectedAt": "2026-08-21",
+    "notes": "官方互动地图标签目录中可见“月神瞳”分类与当前地图推荐路线。其当前点位口径为197，与影月月月之八视频声明的累计271存在差异，二者均保留为各自来源的原始口径，不互相替代。"
+  },
+  {
+    "id": "ev-snezh-ach-001",
+    "source": { "kind": "miyoushe", "url": "https://www.miyoushe.com/ys/article/77367908", "title": "【V7.0】原神7.0新增成就收集攻略（共计85个）", "creator": "LuckyPant" },
+    "collectedAt": "2026-08-21",
+    "notes": "文章最后编辑于8月20日。按游戏内分类列出7.0新增85个成就的名称：天地万象37个、尘世巡游·第七辑3个、异世相逢·第七辑9个、至冬·冰与苍星的圣都·其之一21个、浮涌的阴影之地15个；文章声明合计625原石。正文末尾“6.7版本”与标题不一致，按标题、发布时间和独立文章交叉验证处理为编辑笔误。"
+  },
+  {
+    "id": "ev-snezh-ach-002",
+    "source": { "kind": "miyoushe", "url": "https://www.miyoushe.com/ys/article/77351014", "title": "【V7.0】版本新增成就", "creator": "冰雨碎梦寒" },
+    "collectedAt": "2026-08-21",
+    "notes": "独立汇总确认7.0新增85个成就及五个分类的数量。文中标明“苍明如冰”和“影域老司机”当前版本无法达成；“伟业的遂成”三阶段不在这份7.0新增85项初始清单内，暂不录入。"
+  },
+  {
+    "id": "ev-snezh-ach-game-001",
+    "source": {
+      "kind": "game-client",
+      "title": "原神游戏内成就界面本地录屏与截图（已脱离个人状态口径）"
+    },
+    "collectedAt": "2026-08-21",
+    "notes": "本地素材位于项目成就目录：天地万象录屏 1 个，尘世巡游截图 1 张，异世相逢截图 3 张，至冬·冰与苍星的圣都·其之一截图 4 张，浮涌的阴影之地截图 4 张。核验用途仅限分类、成就名称、描述、原石档位与游戏版本可达性；不提取或存储画面中的 UID、完成时间、完成进度与达成状态。"
+  },
+  {
+    "id": "ev-snezh-012",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV1CMHQzsEJV", "title": "【原神一条龙全收集】挪德卡莱月之一", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-21", "sourceUrl": "https://space.bilibili.com/431073645/lists" } },
+    "collectedAt": "2026-08-21",
+    "notes": "通过影月月本人合集与视频页核验。视频声明覆盖伦波岛、希汐岛、帕哈岛，包含宝箱成就数 299、月神瞳 112、摩拉箱 93、玉帛 12；视频时长 4 小时 26 分 42 秒。"
+  },
+  {
+    "id": "ev-snezh-013",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV1qprpBcEZN", "title": "【原神一条龙全收集】挪德卡莱月之四", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-21", "sourceUrl": "https://space.bilibili.com/431073645/lists" } },
+    "collectedAt": "2026-08-21",
+    "notes": "通过影月月本人合集与视频页核验。视频声明覆盖虚海望、逐浪野、烟硌山峰，包含宝箱成就数 229、月神瞳 80、摩拉箱 71、摩拉盒 10、玉帛 8；视频时长 2 小时 34 分 28 秒。"
+  },
+  {
+    "id": "ev-snezh-014",
+    "source": { "kind": "creator", "url": "https://www.bilibili.com/video/BV1uMTY6aEZv", "title": "【原神一条龙全收集】挪德卡莱月之八", "creatorId": "ying-yueyue", "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-21", "sourceUrl": "https://space.bilibili.com/431073645/lists" } },
+    "collectedAt": "2026-08-21",
+    "notes": "通过影月月本人合集与视频页核验。视频声明覆盖杜南纳深坑、霜月，包含宝箱成就数 224、月神瞳 79、摩拉箱 68、玉帛 6；视频时长 2 小时 57 分 10 秒。"
+  }
+]

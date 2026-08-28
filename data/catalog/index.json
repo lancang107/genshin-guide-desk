@@ -1,0 +1,13 @@
+{
+  "regions": {
+    "snezhnaya": {
+      "name": "至冬（7.0）",
+      "countryId": "snezhnaya",
+      "version": "7.0",
+      "files": ["archon-quests", "world-quests", "chest-routes", "oculus-routes", "achievements", "offerings", "domain-first-clears"],
+      "guideFiles": ["one-dragon"],
+      "evidenceFiles": ["snezhnaya-7.0"]
+    }
+  },
+  "note": "新增地区时在此注册。files 为该地区目录下的 JSON 文件名（不含 .json 后缀）。"
+}

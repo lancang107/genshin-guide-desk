@@ -1,0 +1,147 @@
+[
+  {
+    "id": "snezh-oculus-mainland-7-0",
+    "kind": "oculus-route",
+    "title": "至冬7.0冰神瞳总路线",
+    "countryId": "snezhnaya",
+    "areaId": "snezhnaya-mainland",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "coverageSubregionIds": [
+      "snezhnaya-ancient-beast-ice-plain",
+      "snezhnaya-emberfeather-valley",
+      "snezhnaya-everfrozen-tundra",
+      "snezhnaya-frostpeak",
+      "snezhnaya-white-birch-snowburial"
+    ],
+    "coverageNotes": [
+      "古兽冰原",
+      "焰羽谷",
+      "永凝冻土",
+      "霜殛寒峰",
+      "白桦雪葬地"
+    ],
+    "rewards": {
+      "primogems": 600,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "冰神瞳 140 个（可供奉至七天神像 6 级多 15 个）",
+        "冰神像 1-6 级各 100 原石，共 600 原石"
+      ]
+    },
+    "rewardMethod": "indirect-offering",
+    "estimatedMinutes": {
+      "min": 70,
+      "typical": 86,
+      "max": 110
+    },
+    "difficulty": "hard",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV131b26FE1u",
+        "title": "【原神至冬冰神瞳】(140已完结)散失的冰神瞳全收集/分区域收集/贴心领跑防迷路/全网最贴心的至冬冰神瞳攻略",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-snezh-010"
+      ],
+      "checkedAt": "2026-08-20",
+      "note": "影月月本人投稿已确认 140 个冰神瞳、7.0 开图主线前置和约 86 分钟的视频总时长。合集按地点分为 22 个小节；路线覆盖范围由同作者至冬7.0一条龙的本土五区声明交叉确认。140 个冰神瞳可将冰神像升至 6 级，每级 100 原石，共 600 原石。"
+    },
+    "geographyStatus": "confirmed",
+    "sourceLabels": [
+      "至冬7.0",
+      "影月月冰神瞳 140 已完结"
+    ]
+  },
+  {
+    "id": "nod-krai-lunar-oculus-complete",
+    "kind": "oculus-route",
+    "title": "挪德卡莱月神瞳总路线（271 已完结）",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "coverageAreaIds": [
+      "frostmoon"
+    ],
+    "regionId": "snezhnaya",
+    "versionIntroduced": "6.7",
+    "coverageSubregionIds": [
+      "nod-krai-lunbo-isle",
+      "nod-krai-xixi-isle",
+      "nod-krai-paha-isle",
+      "nod-krai-void-sea-lookout",
+      "nod-krai-wavechaser-wilds",
+      "nod-krai-yanluo-peak",
+      "nod-krai-dunana-pit",
+      "frostmoon-main"
+    ],
+    "coverageNotes": [
+      "伦波岛、希汐岛、帕哈岛",
+      "虚海望、逐浪野、烟硌山峰",
+      "杜南纳深坑",
+      "霜月（原神官方互动地图独立切换区域）"
+    ],
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "月神瞳 271 个（10 级多 1 个）"
+      ]
+    },
+    "rewardMethod": "indirect-offering",
+    "estimatedMinutes": {
+      "min": 150,
+      "typical": 178,
+      "max": 220
+    },
+    "difficulty": "hard",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV11vHizDEfK/",
+        "title": "【原神挪德卡莱月神瞳】(271已完结)散失的月神瞳全收集/分区域收集/贴心领跑防迷路/全网最贴心的挪德卡莱月神瞳攻略",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-21",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-snezh-011",
+        "ev-geo-map-switch-001"
+      ],
+      "checkedAt": "2026-08-21",
+      "note": "影月月本人 46 段合集已确认，路线涵盖月之一、月之四、月之八的全部 271 个月神瞳；各阶段前置视频编号也在视频说明中汇总列明。分段总时长为 2 小时 57 分 54 秒。神像供奉奖励尚未逐级按游戏内数据核验，因此不填入原石估算。"
+    },
+    "geographyStatus": "confirmed",
+    "sourceLabels": [
+      "挪德卡莱月神瞳全收集",
+      "月之一",
+      "月之四",
+      "月之八"
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "version-meta.schema.json",
+  "title": "Version Meta",
+  "description": "Describes a Genshin Impact version: banner phases, dates, and featured characters",
+  "type": "object",
+  "required": ["version", "phaseCount", "phases", "startDate", "endDate"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Version number, e.g. \"5.2\"",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "phaseCount": {
+      "type": "integer",
+      "enum": [1, 2],
+      "description": "Number of banner phases in this version (usually 2)"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Version start date (ISO 8601)"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Version end date (ISO 8601)"
+    },
+    "phases": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["phase", "bannerName", "characters", "startDate", "endDate", "durationDays"],
+        "properties": {
+          "phase": {
+            "type": "integer",
+            "enum": [1, 2]
+          },
+          "bannerName": {
+            "type": "string",
+            "description": "Banner display name, e.g. banner theme name"
+          },
+          "characters": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "object",
+              "required": ["name", "rarity", "element", "weaponType", "type"],
+              "properties": {
+                "name": { "type": "string" },
+                "rarity": { "type": "integer", "enum": [4, 5] },
+                "element": {
+                  "type": "string",
+                  "enum": ["anemo", "geo", "electro", "dendro", "hydro", "pyro", "cryo"]
+                },
+                "weaponType": {
+                  "type": "string",
+                  "enum": ["sword", "claymore", "polearm", "bow", "catalyst"]
+                },
+                "type": {
+                  "type": "string",
+                  "enum": ["limited", "standard"],
+                  "description": "limited = event banner exclusive, standard = also in standard pool"
+                }
+              }
+            }
+          },
+          "weaponBanner": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "rarity"],
+              "properties": {
+                "name": { "type": "string" },
+                "rarity": { "type": "integer", "enum": [4, 5] }
+              }
+            }
+          },
+          "startDate": { "type": "string", "format": "date" },
+          "endDate": { "type": "string", "format": "date" },
+          "durationDays": {
+            "type": "integer",
+            "description": "Banner duration in days (typically ~21)"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional version notes, e.g. new area release, major system changes"
+    }
+  }
+}

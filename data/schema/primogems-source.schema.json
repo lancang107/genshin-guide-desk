@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "primogems-source.schema.json",
+  "title": "Primogems Source",
+  "description": "A single source of primogems in a given version",
+  "type": "object",
+  "required": ["id", "name", "category", "subcategory", "amount", "isOneTime", "estimatedMinutes", "difficulty", "description"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier, e.g. \"archon-quest-5.2\"",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name, e.g. \"魔神任务第五章第三幕\""
+    },
+    "category": {
+      "type": "string",
+      "enum": ["one-time", "recurring", "limited-time"],
+      "description": "one-time = permanent content; recurring = resets per cycle; limited-time = version event only"
+    },
+    "subcategory": {
+      "type": "string",
+      "enum": [
+        "archon-quest",
+        "world-quest",
+        "story-quest",
+        "hangout-event",
+        "exploration",
+        "achievement",
+        "spiral-abyss",
+        "imaginary-theater",
+        "daily-commission",
+        "event",
+        "exchange",
+        "web-event",
+        "live-stream",
+        "maintenance",
+        "other"
+      ]
+    },
+    "amount": {
+      "type": "object",
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Primogems amount. Use 0 for sources that grant other currency (fates, wishes)."
+        },
+        "unit": {
+          "type": "string",
+          "enum": ["primogems", "fates", "wishes", "mixed"],
+          "default": "primogems",
+          "description": "Reward unit type. mixed = primogems plus other rewards."
+        },
+        "note": {
+          "type": "string",
+          "description": "Optional note on amount, e.g. \"per phase clear\""
+        }
+      }
+    },
+    "rewards": {
+      "type": "object",
+      "description": "Rewards split by currency. Do not convert fates into primogems in stored data.",
+      "required": ["primogems", "intertwinedFates", "acquaintFates"],
+      "properties": {
+        "primogems": { "type": "integer", "minimum": 0 },
+        "intertwinedFates": { "type": "integer", "minimum": 0 },
+        "acquaintFates": { "type": "integer", "minimum": 0 },
+        "other": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Non-wish rewards. Keep their text here instead of inventing a primogem equivalent."
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "description": "Editorial verification state for the reward amount and availability.",
+      "required": ["status"],
+      "properties": {
+        "status": { "type": "string", "enum": ["confirmed", "estimated", "pending"] },
+        "checkedAt": { "type": "string", "format": "date" },
+        "note": { "type": "string" }
+      }
+    },
+    "isOneTime": {
+      "type": "boolean",
+      "description": "true if this source can only be claimed once per account"
+    },
+    "estimatedMinutes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Estimated time to complete in minutes. 0 for passive sources (e.g. maintenance compensation)."
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard", "passive"],
+      "description": "easy = no combat/story; medium = some combat or puzzle; hard = high investment or skill needed; passive = no player action"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the player needs to do"
+    },
+    "prerequisite": {
+      "type": "string",
+      "description": "Optional prerequisite, e.g. \"需要完成魔神任务第五章第二幕\""
+    },
+    "guideLinks": {
+      "type": "array",
+      "description": "Links to guide videos or articles",
+      "items": {
+        "type": "object",
+        "required": ["platform", "url", "title"],
+        "properties": {
+          "platform": {
+            "type": "string",
+            "enum": ["bilibili", "miyoushe", "youtube", "other"]
+          },
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "creator": {
+            "type": "string",
+            "description": "UP creator name, e.g. \"你的影月月\""
+          },
+          "bvid": {
+            "type": "string",
+            "description": "Bilibili BV ID if platform is bilibili"
+          },
+          "timestamp": {
+            "type": "string",
+            "description": "Time stamp in the video, e.g. \"12:30\""
+          }
+        }
+      }
+    }
+  }
+}

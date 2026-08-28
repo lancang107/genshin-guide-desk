@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "one-time-resource.schema.json",
+  "title": "One-time Resource",
+  "description": "A permanent, account-scoped source of primogems or wish-relevant rewards.",
+  "type": "object",
+  "required": ["id", "kind", "title", "regionId", "versionIntroduced", "rewards", "estimatedMinutes", "difficulty", "completionGranularity", "verification"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "kind": {
+      "type": "string",
+      "enum": ["archon-quest", "world-quest", "story-quest", "hangout", "chest-route", "oculus-route", "achievement-set", "offering-system", "domain-first-clear", "other"]
+    },
+    "title": { "type": "string" },
+    "countryId": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "所属国家，例如 snezhnaya。" },
+    "areaId": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "国家下的大区或自治区域，例如 nod-krai。" },
+    "coverageAreaIds": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "description": "路线额外覆盖的大区；用于跨越自治区域与特殊区域的连续路线。" },
+    "settlement": {
+      "type": "object",
+      "description": "聚所等世界任务归属地；不是资源目录的独立地理层级。",
+      "required": ["id", "name", "kind"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "kind": { "type": "string", "const": "聚所" }
+      }
+    },
+    "subregionId": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "大区下的地图子区域；未知时省略。" },
+    "coverageSubregionIds": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "description": "一条路线覆盖的多个官方地图子区域。" },
+    "coverageNotes": { "type": "array", "items": { "type": "string" }, "description": "路线覆盖范围的展示说明；未映射到官方互动地图的名称必须在此注明。" },
+    "geographyStatus": { "type": "string", "enum": ["confirmed", "needs-geocoding"], "description": "路线是否已匹配到官方地图子区域。未匹配的宝箱和神瞳路线不得用于自动推荐。" },
+    "sourceLabels": { "type": "array", "items": { "type": "string" }, "description": "攻略视频或版本的原始称呼，仅用于检索和证据溯源，不能作为地理层级。" },
+    "achievementSummary": {
+      "type": "object",
+      "description": "成就聚合资源的版本核验摘要；不包含用户个人完成状态。",
+      "required": ["itemCount", "verifiedPrimogems", "categories"],
+      "properties": {
+        "itemCount": { "type": "integer", "minimum": 0 },
+        "verifiedPrimogems": { "type": "integer", "minimum": 0 },
+        "categories": { "type": "array", "items": { "type": "object", "required": ["name", "count"], "properties": { "name": { "type": "string" }, "count": { "type": "integer", "minimum": 0 } } } }
+      }
+    },
+    "regionId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "versionIntroduced": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "rewards": {
+      "type": "object",
+      "required": ["primogems", "intertwinedFates", "acquaintFates"],
+      "properties": {
+        "primogems": { "type": "integer", "minimum": 0 },
+        "intertwinedFates": { "type": "integer", "minimum": 0 },
+        "acquaintFates": { "type": "integer", "minimum": 0 },
+        "sigils": { "type": "integer", "minimum": 0 },
+        "other": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "rewardMethod": { "type": "string", "enum": ["direct", "indirect-offering", "mixed"] },
+    "offeringCurrency": { "type": "string", "description": "供奉系统使用的兑换货币，例如徽印。" },
+    "estimatedMinutes": {
+      "type": "object",
+      "required": ["min", "typical", "max"],
+      "properties": {
+        "min": { "type": "integer", "minimum": 0 },
+        "typical": { "type": "integer", "minimum": 0 },
+        "max": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "completionGranularity": { "type": "string", "enum": ["resource", "batch", "item"] },
+    "prerequisiteIds": { "type": "array", "items": { "type": "string" } },
+    "guideLinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "title", "kind"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "kind": { "type": "string", "enum": ["official", "miyoushe", "creator"] }
+          ,"creatorId": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "creator 类型链接必须关联 data/creators.json 中的创作者" },
+          "publisherVerification": { "type": "object", "properties": { "status": { "const": "confirmed" }, "creatorId": { "type": "string" }, "checkedAt": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" } } }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status", "evidenceIds", "checkedAt"],
+      "properties": {
+        "status": { "type": "string", "enum": ["confirmed", "estimated", "pending"] },
+        "evidenceIds": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "checkedAt": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

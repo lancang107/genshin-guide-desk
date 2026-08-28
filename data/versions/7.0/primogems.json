@@ -1,0 +1,785 @@
+[
+  {
+    "id": "maintenance-compensation",
+    "name": "版本更新维护补偿",
+    "category": "limited-time",
+    "subcategory": "maintenance",
+    "amount": {
+      "value": 600,
+      "unit": "primogems"
+    },
+    "rewards": {
+      "primogems": 600,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-17"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 0,
+    "difficulty": "passive",
+    "description": "7.0版本更新后邮件发放，登录领取即可",
+    "guideLinks": []
+  },
+  {
+    "id": "preview-livestream-codes",
+    "name": "前瞻直播兑换码",
+    "category": "limited-time",
+    "subcategory": "live-stream",
+    "amount": {
+      "value": 300,
+      "unit": "primogems"
+    },
+    "rewards": {
+      "primogems": 300,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-17",
+      "note": "前瞻兑换码已过有效期，不纳入 8 月 17 日起的新套餐可得资源。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 5,
+    "difficulty": "easy",
+    "description": "7.0前瞻直播的3个兑换码，限时兑换",
+    "guideLinks": []
+  },
+  {
+    "id": "daily-commission-phase1",
+    "name": "每日委托（上半卡池期间）",
+    "category": "recurring",
+    "subcategory": "daily-commission",
+    "amount": {
+      "value": 900,
+      "unit": "primogems",
+      "note": "60原石/天 x 15天（按 2026-08-17 至 2026-09-01 17:59 计算）"
+    },
+    "rewards": {
+      "primogems": 900,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-17"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 225,
+    "difficulty": "easy",
+    "description": "每天4个委托+凯瑟琳对话，60原石/天。按剩余15天计算共900原石",
+    "guideLinks": []
+  },
+  {
+    "id": "stardust-exchange",
+    "name": "星尘兑换（纠缠之缘）",
+    "category": "recurring",
+    "subcategory": "exchange",
+    "amount": {
+      "value": 800,
+      "unit": "fates",
+      "note": "5个纠缠之缘；不在数据中换算为原石"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 5,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-17",
+      "note": "需要玩家拥有足够星尘。"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 1,
+    "difficulty": "passive",
+    "description": "每月星尘商店兑换5个纠缠之缘",
+    "guideLinks": []
+  },
+  {
+    "id": "starglitter-exchange",
+    "name": "星辉兑换（纠缠之缘，无上限）",
+    "category": "recurring",
+    "subcategory": "exchange",
+    "amount": {
+      "value": 0,
+      "unit": "fates",
+      "note": "每 5 个无主的星辉兑换 1 个纠缠之缘，无兑换上限；实际数量取决于玩家星辉库存"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "每 5 个无主的星辉兑换 1 个纠缠之缘，无兑换上限；不计入套餐固定收益。"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 1,
+    "difficulty": "passive",
+    "description": "星辉商店可用 5 个无主的星辉兑换 1 个纠缠之缘，无兑换上限；需要玩家拥有星辉",
+    "guideLinks": []
+  },
+  {
+    "id": "archon-quest-7.0",
+    "name": "魔神任务·第七章（至冬主线，已开放两幕）",
+    "category": "one-time",
+    "subcategory": "archon-quest",
+    "amount": {
+      "value": 60,
+      "unit": "primogems",
+      "note": "已开放两幕；每幕 30 原石，共 60 原石"
+    },
+    "rewards": {
+      "primogems": 60,
+      "intertwinedFates": 2,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "当前开放两幕；每幕完成奖励为 30 原石和 1 个纠缠之缘。任务内一次性秘境宝箱另计。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 270,
+    "difficulty": "easy",
+    "description": "已开放第七章第一幕与第二幕。每幕完成可得 30 原石和 1 个纠缠之缘；含剧情对话和战斗。",
+    "prerequisite": "需完成第六章魔神任务",
+    "guideLinks": []
+  },
+  {
+    "id": "domain-first-clears-snezhnaya",
+    "name": "至冬新秘境首通",
+    "category": "one-time",
+    "subcategory": "exploration",
+    "amount": {
+      "value": 0,
+      "unit": "primogems",
+      "note": "常驻/新场景秘境首通没有原石奖励；按用户确认口径记录。"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-27",
+      "note": "用户已确认：常驻秘境首通无原石奖励，解锁/首次通关不计入原石资源。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 20,
+    "difficulty": "medium",
+    "description": "首通常驻秘境/新场景秘境不计原石；保留作为地图功能解锁任务，不进入原石推荐。",
+    "guideLinks": []
+  },
+  {
+    "id": "offerings-snezhnaya",
+    "name": "徽印供奉·聚所共建（3个聚所）",
+    "category": "one-time",
+    "subcategory": "other",
+    "amount": {
+      "value": 750,
+      "unit": "primogems",
+      "note": "每个聚所共建每级 50 原石，当前上限 5 级；三个聚所满级共 750 原石"
+    },
+    "rewards": {
+      "primogems": 750,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "巡猎者木屋、汐歌洞窟、科洛列夫茨基剧院",
+        "聚所纪事世界任务前置"
+      ]
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "三个聚所各有独立的聚所共建供奉。每级 50 原石、当前上限 5 级，单个满级 250 原石；共建进度取决于玩家已获得的徽印。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "description": "向巡猎者木屋、汐歌洞窟和科洛列夫茨基剧院的聚所共建供奉徽印。聚所纪事属于世界任务，完成后可解锁对应供奉前置。"
+  },
+  {
+    "id": "world-quest-snezhnaya",
+    "name": "至冬世界任务",
+    "category": "one-time",
+    "subcategory": "world-quest",
+    "amount": {
+      "value": 870,
+      "unit": "primogems",
+      "note": "21 条世界任务汇总；三个聚所纪事均属于世界任务且不直接奖励原石"
+    },
+    "rewards": {
+      "primogems": 870,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "已按资源库 21 条世界任务的直接原石汇总。三个聚所纪事归入本项，均不直接奖励原石；聚所共建供奉奖励另列。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 479,
+    "difficulty": "medium",
+    "description": "至冬 7.0 的 21 条世界任务，包含巡猎者木屋、汐歌洞窟和科洛列夫茨基剧院的聚所纪事。部分有隐藏前置需探索触发。",
+    "guideLinks": []
+  },
+  {
+    "id": "exploration-snezhnaya-chests",
+    "name": "至冬宝箱探索",
+    "category": "one-time",
+    "subcategory": "exploration",
+    "amount": {
+      "value": 2500,
+      "unit": "primogems",
+      "note": "预估，含普通/精致/珍贵/华丽宝箱"
+    },
+    "rewards": {
+      "primogems": 2500,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "estimated",
+      "checkedAt": "2026-08-17",
+      "note": "需按区域宝箱批次与供奉奖励拆分后校验。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 480,
+    "difficulty": "medium",
+    "description": "至冬新区域全宝箱收集，含月球/月之高地/月之八/挪德卡莱等区域",
+    "guideLinks": [
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1JG8H6zEN3",
+        "title": "【原神宝箱全收集】至冬7.0",
+        "creator": "你的影月月",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      },
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1BMgj6MEz4",
+        "title": "【原神一条龙全收集】至冬7.0",
+        "creator": "你的影月月",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exploration-cryo-oculi",
+    "name": "冰神瞳收集",
+    "category": "one-time",
+    "subcategory": "exploration",
+    "amount": {
+      "value": 600,
+      "unit": "primogems",
+      "note": "140 个冰神瞳可将冰神像升至 6 级；每升 1 级 100 原石"
+    },
+    "rewards": {
+      "primogems": 600,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "140 个冰神瞳可将冰神像升至 6 级，每级 100 原石，共 600 原石。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 120,
+    "difficulty": "medium",
+    "description": "收集 140 个冰神瞳并供奉至冰神像 6 级。每升一级获得 100 原石，共 600 原石。",
+    "guideLinks": [
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV131b26FE1u",
+        "title": "【原神至冬冰神瞳】140已完结·分区域收集",
+        "creator": "你的影月月",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ]
+  },
+  {
+    "id": "achievements-7.0",
+    "name": "7.0版本新增成就",
+    "category": "one-time",
+    "subcategory": "achievement",
+    "amount": {
+      "value": 625,
+      "unit": "primogems",
+      "note": "米游社 7.0 成就攻略汇总为 85 项、共 625 原石"
+    },
+    "rewards": {
+      "primogems": 625,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-21"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 120,
+    "difficulty": "medium",
+    "description": "至冬 7.0 新增成就共 85 项，攻略汇总为 625 原石。执行与核验均使用已录入的一次性资源目录攻略。",
+    "guideLinks": [
+      {
+        "platform": "miyoushe",
+        "url": "https://www.miyoushe.com/ys/article/77367908",
+        "title": "【V7.0】原神7.0新增成就收集攻略（共计85个）"
+      },
+      {
+        "platform": "miyoushe",
+        "url": "https://www.miyoushe.com/ys/article/77351014",
+        "title": "【V7.0】版本新增成就"
+      }
+    ]
+  },
+  {
+    "id": "spiral-abyss-first-clear",
+    "name": "深境螺旋永久首通（第1-8层）",
+    "category": "one-time",
+    "subcategory": "spiral-abyss",
+    "amount": {
+      "value": 2400,
+      "unit": "primogems",
+      "note": "每层按 3 / 6 / 9 星各领取 100 原石；8 层全部满星共 2400 原石"
+    },
+    "rewards": {
+      "primogems": 2400,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "第 1-8 层每层 3 / 6 / 9 星各 100 原石；仅包含尚未领取的永久首次奖励，不与第 9-12 层轮换奖励重复计算。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 60,
+    "difficulty": "hard",
+    "description": "第 1-8 层永久首次星数奖励：每层在 3、6、9 星各领 100 原石，单层满额 300 原石，八层满额 2400 原石。已领取的档位不会重置。",
+    "eventInfo": {
+      "title": "永久首次奖励",
+      "summary": "只计算第 1-8 层尚未领取的星数档位；奖励领取后不会随版本或月度刷新。",
+      "window": "永久有效，不重置",
+      "requirements": "通关对应楼层并达到 3 / 6 / 9 星档位",
+      "rewardNote": "每层 100 + 100 + 100 原石；第 1-8 层全部满星共 2400 原石"
+    },
+    "guideLinks": []
+  },
+  {
+    "id": "spiral-abyss-reset",
+    "name": "深境螺旋轮换奖励（第9-12层）",
+    "category": "recurring",
+    "subcategory": "spiral-abyss",
+    "amount": {
+      "value": 800,
+      "unit": "primogems",
+      "note": "每层按 3 / 6 / 9 星分别领取 50 / 50 / 100 原石；四层满星每期共 800 原石"
+    },
+    "rewards": {
+      "primogems": 800,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "第 9-12 层每层 3 / 6 / 9 星分别为 50 / 50 / 100 原石；按当期实际星数结算，与第 1-8 层永久首次奖励分开统计。"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 45,
+    "difficulty": "hard",
+    "description": "第 9-12 层轮换星数奖励：每层在 3、6、9 星分别领 50、50、100 原石，单层满额 200 原石，四层满额 800 原石。重置后可再次领取。",
+    "eventInfo": {
+      "title": "轮换星数奖励",
+      "summary": "只计算第 9-12 层；每次轮换重置后，按本期实际星数重新领取。",
+      "window": "随深境螺旋轮换重置；本套餐按卡池剩余时间最多计 1 期",
+      "requirements": "通关对应楼层并达到 3 / 6 / 9 星档位",
+      "rewardNote": "每层 50 + 50 + 100 原石；第 9-12 层全部满星每期共 800 原石"
+    },
+    "guideLinks": []
+  },
+  {
+    "id": "imaginary-theater-first-performance",
+    "name": "幻想真境剧诗初演馈赠（1-10级）",
+    "category": "one-time",
+    "subcategory": "imaginary-theater",
+    "amount": {
+      "value": 1500,
+      "unit": "primogems",
+      "note": "一次性初演馈赠：1/2/4/5/7级各100，3/6/8级各200，9级150，10级250"
+    },
+    "rewards": {
+      "primogems": 1500,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "初演馈赠为一次性奖励，1-10级合计 1500 原石。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 120,
+    "difficulty": "hard",
+    "description": "初演馈赠为一次性等级奖励。按 1-10 级完成进度领取，全部拿满共 1500 原石。",
+    "eventInfo": {
+      "title": "一次性初演馈赠",
+      "summary": "与月度轮换的巡演奖励分开计算；已领取的初演馈赠不会重置。",
+      "window": "永久有效，不重置",
+      "requirements": "完成幻想真境剧诗对应等级",
+      "rewardNote": "1/2/4/5/7级各100；3/6/8级各200；9级150；10级250，共1500原石"
+    },
+    "guideLinks": []
+  },
+  {
+    "id": "imaginary-theater-seasonal-tour",
+    "name": "幻想真境剧诗巡演奖励（1-10级）",
+    "category": "recurring",
+    "subcategory": "imaginary-theater",
+    "amount": {
+      "value": 840,
+      "unit": "primogems",
+      "note": "每期巡演：1/2/4/5/7/9级各60，3/6/8/10级各120"
+    },
+    "rewards": {
+      "primogems": 840,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "巡演奖励随轮换重置，1-10级每期满额 840 原石。"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 60,
+    "difficulty": "hard",
+    "description": "巡演奖励随轮换重置。每期完成 1-10 级，满额可得 840 原石。",
+    "eventInfo": {
+      "title": "轮换巡演奖励",
+      "summary": "与一次性的初演馈赠分开；每期轮换后可重新获得。",
+      "window": "随幻想真境剧诗轮换重置；本套餐按卡池剩余时间最多计 1 期",
+      "requirements": "完成幻想真境剧诗对应等级",
+      "rewardNote": "1/2/4/5/7/9级各60；3/6/8/10级各120，共840原石/期"
+    },
+    "guideLinks": []
+  },
+  {
+    "id": "new-bud-support-first-snowfield",
+    "name": "新芽相助·初探雪原",
+    "category": "limited-time",
+    "subcategory": "event",
+    "amount": {
+      "value": 0,
+      "unit": "primogems",
+      "note": "活动奖励数额尚未由官方公告逐项核验，暂不计入原石合计"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "活动已于 2026-08-24 截止，归档保留但不再推荐。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 45,
+    "difficulty": "easy",
+    "description": "至冬探索行动的票券行动与挑战奖励，已于 2026-08-24 截止。",
+    "eventInfo": {
+      "title": "小型限时探索活动",
+      "summary": "攻略选集分为票券行动与挑战奖励两部分，均应在截止前完成。",
+      "window": "已于 2026-08-24 截止",
+      "requirements": "活动已结束",
+      "rewardNote": "奖励数额未记录；不计入原石合计"
+    },
+    "guideLinks": [
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV15bbQ6jEih",
+        "title": "7.0版本活动攻略合集：新芽相助·初探雪原",
+        "creator": "莴苣某人",
+        "creatorId": "woju-mouren",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "woju-mouren",
+          "checkedAt": "2026-08-24",
+          "sourceUrl": "https://space.bilibili.com/1773346/upload/video"
+        }
+      }
+    ]
+  },
+  {
+    "id": "qiyu-treasure",
+    "name": "奇域秘藏",
+    "category": "limited-time",
+    "subcategory": "event",
+    "amount": {
+      "value": 220,
+      "unit": "primogems",
+      "note": "莴苣某人活动攻略合集口径：奇域秘藏加兑换码共 220 原石"
+    },
+    "rewards": {
+      "primogems": 220,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "按用户确认采用莴苣某人本人攻略口径：奇域秘藏加兑换码共 220 原石。官方活动详情仍可后续补充核验链接。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 20,
+    "difficulty": "easy",
+    "description": "进入奇域秘藏活动并检查视频中提及的兑换码。未核实活动期限前，只作为待确认执行项展示。",
+    "eventInfo": {
+      "title": "限时玩法候选",
+      "summary": "攻略选集包含奇域秘藏步骤与兑换码提示，但尚未取得官方活动详情。",
+      "window": "待官方公告核验",
+      "requirements": "待官方公告核验",
+      "rewardNote": "按视频口径暂计 220 原石（含兑换码），作为估算资源"
+    },
+    "guideLinks": [
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV15bbQ6jEih",
+        "title": "7.0版本活动攻略合集：奇域秘藏与兑换码",
+        "creator": "莴苣某人",
+        "creatorId": "woju-mouren",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "woju-mouren",
+          "checkedAt": "2026-08-24",
+          "sourceUrl": "https://space.bilibili.com/1773346/upload/video"
+        }
+      }
+    ]
+  },
+  {
+    "id": "snezhnaya-travel-handbook",
+    "name": "至冬漫游手册",
+    "category": "limited-time",
+    "subcategory": "web-event",
+    "amount": {
+      "value": 40,
+      "unit": "primogems",
+      "note": "莴苣某人活动攻略标注“保底 40 原石”，待官方公告核验"
+    },
+    "rewards": {
+      "primogems": 40,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "抽奖性质奖励，按保底 40 原石计；活动于 2026-08-25 截止。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 10,
+    "difficulty": "easy",
+    "description": "至冬主题网页活动，抽奖性质奖励按保底 40 原石计；已于 2026-08-25 截止。",
+    "eventInfo": {
+      "title": "网页限时活动",
+      "summary": "低耗时网页活动，适合先完成后再安排游戏内探索。",
+      "window": "已于 2026-08-25 截止",
+      "requirements": "活动已结束",
+      "rewardNote": "抽奖性质奖励，按保底 40 原石记录"
+    },
+    "guideLinks": [
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV15bbQ6jEih",
+        "title": "7.0版本活动攻略合集：至冬漫游手册",
+        "creator": "莴苣某人",
+        "creatorId": "woju-mouren",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "woju-mouren",
+          "checkedAt": "2026-08-24",
+          "sourceUrl": "https://space.bilibili.com/1773346/upload/video"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stygian-onslaught-7-0",
+    "name": "幽境危战·7.0",
+    "category": "recurring",
+    "subcategory": "event",
+    "amount": {
+      "value": 0,
+      "unit": "primogems",
+      "note": "作为本期挑战玩法攻略展示；奖励不按限时原石计入"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "玩法与 7.0 敌人配置由影月月本人攻略确认；不将其作为本版本限时原石来源。"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 45,
+    "difficulty": "hard",
+    "description": "挑战本期幽境危战中的嵌合翼骏狮、风役人和重甲武库。练度不足时可跳过，不影响攒石主线。",
+    "eventInfo": {
+      "title": "周期性高难挑战",
+      "summary": "这是用于挑战规划的攻略入口，不是一次性资源或本期保证原石。",
+      "window": "7.0 敌人配置；具体重置周期以游戏内为准",
+      "requirements": "需要可用于高难战斗的队伍",
+      "rewardNote": "不计入限时原石资源池"
+    },
+    "guideLinks": [
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1Go8L6LESZ",
+        "title": "幽境危战（7.0版本）活动攻略",
+        "creator": "你的影月月",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-24",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ]
+  },
+  {
+    "id": "heated-battle-mode-7-0",
+    "name": "铸境研炼·奕思巧战",
+    "category": "limited-time",
+    "subcategory": "event",
+    "amount": {
+      "value": 0,
+      "unit": "primogems",
+      "note": "攻略作者明确说明“没有原石”"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-24",
+      "note": "活动关卡与无原石奖励说明由影月月本人攻略确认。"
+    },
+    "isOneTime": true,
+    "estimatedMinutes": 25,
+    "difficulty": "medium",
+    "description": "完成七圣召唤铸境研炼关卡；这是兴趣玩法，不占用攒石优先级。",
+    "eventInfo": {
+      "title": "七圣召唤玩法活动",
+      "summary": "攻略含伤势与气势、危险的斗场、手术级精准、晦暗倒计时四关。",
+      "window": "具体活动窗口待官方公告核验",
+      "requirements": "需要参与七圣召唤玩法",
+      "rewardNote": "不提供原石，不计入资源池"
+    },
+    "guideLinks": [
+      {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV12N8A6hEKf",
+        "title": "铸境研炼·奕思巧战无脑攻略",
+        "creator": "你的影月月",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-24",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ]
+  },
+  {
+    "id": "battle-pass-free",
+    "name": "纪行免费线奖励",
+    "category": "recurring",
+    "subcategory": "exchange",
+    "amount": {
+      "value": 0,
+      "unit": "fates",
+      "note": "5个相遇之缘；不能用于限定角色池"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 5
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-17"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 0,
+    "difficulty": "passive",
+    "description": "纪行免费线达到50级可领取5个相遇之缘",
+    "guideLinks": []
+  },
+  {
+    "id": "teapot-exchange",
+    "name": "洞天百宝兑换",
+    "category": "recurring",
+    "subcategory": "exchange",
+    "amount": {
+      "value": 0,
+      "unit": "mixed",
+      "note": "洞天百宝不直接提供原石或祈愿道具，不计入抽卡资源"
+    },
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "洞天宝钱可兑换养成资源"
+      ]
+    },
+    "verification": {
+      "status": "confirmed",
+      "checkedAt": "2026-08-17"
+    },
+    "isOneTime": false,
+    "estimatedMinutes": 5,
+    "difficulty": "easy",
+    "description": "尘歌壶洞天百宝可兑换树脂、经验书、摩拉等养成资源；不提供原石或祈愿道具",
+    "guideLinks": []
+  }
+]

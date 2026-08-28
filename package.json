@@ -1,0 +1,11 @@
+{
+  "name": "genshin-guide-desk",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Version-driven Genshin primogem planning desk",
+  "scripts": {
+    "start": "node scripts/server.js",
+    "validate": "node scripts/validate-data.js && node scripts/validate-achievements.js && node scripts/validate-catalog.js && node scripts/validate-guides.js && node scripts/validate-source-links.js",
+    "report:rewards": "node scripts/report-package-rewards.js"
+  }
+}

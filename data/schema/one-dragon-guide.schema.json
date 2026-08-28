@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "one-dragon-guide.schema.json",
+  "title": "One-dragon Guide",
+  "description": "An execution guide that covers multiple independently tracked resources.",
+  "type": "object",
+  "required": ["id", "kind", "title", "countryId", "areaId", "versionIntroduced", "guideLinks", "coverage", "verification"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "kind": { "const": "one-dragon-guide" },
+    "title": { "type": "string" },
+    "countryId": { "type": "string" },
+    "areaId": { "type": "string" },
+    "subregionIds": { "type": "array", "items": { "type": "string" } },
+    "versionIntroduced": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "creatorId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "guideLinks": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["url", "title", "kind", "creatorId", "publisherVerification"], "properties": { "url": { "type": "string", "format": "uri" }, "title": { "type": "string" }, "kind": { "const": "creator" }, "creatorId": { "type": "string" }, "publisherVerification": { "type": "object", "required": ["status", "creatorId", "checkedAt", "sourceUrl"], "properties": { "status": { "const": "confirmed" }, "creatorId": { "type": "string" }, "checkedAt": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" } } } } } },
+    "coverage": {
+      "type": "object",
+      "required": ["resourceIds", "declaredItems", "disclaimer"],
+      "properties": {
+        "resourceIds": { "type": "array", "items": { "type": "string" } },
+        "declaredItems": { "type": "array", "items": { "type": "string" } },
+        "disclaimer": { "type": "string" }
+      }
+    },
+    "estimatedMinutes": { "type": "object", "required": ["min", "typical", "max"], "properties": { "min": { "type": "integer", "minimum": 0 }, "typical": { "type": "integer", "minimum": 0 }, "max": { "type": "integer", "minimum": 0 } } },
+    "verification": { "type": "object", "required": ["status", "evidenceIds", "checkedAt"], "properties": { "status": { "enum": ["declared", "pending"] }, "evidenceIds": { "type": "array", "minItems": 1, "items": { "type": "string" } }, "checkedAt": { "type": "string" } } }
+  }
+}

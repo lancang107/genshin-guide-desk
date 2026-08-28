@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ying-yueyue",
+    "name": "你的影月月",
+    "platform": "bilibili",
+    "uid": "431073645",
+    "homepage": "https://space.bilibili.com/431073645",
+    "specialty": ["primogems-guide", "exploration", "event-guide"],
+    "qualityRating": "s",
+    "status": "active",
+    "notes": "1028万粉丝，2025百大UP主。版本原石总览、地图探索攻略，内容全面且稳定更新。用户推荐。"
+  },
+  {
+    "id": "bingtang-xiaokun",
+    "name": "冰糖小堃",
+    "platform": "bilibili",
+    "uid": "2957050",
+    "homepage": "https://space.bilibili.com/2957050",
+    "specialty": ["primogems-guide", "event-guide"],
+    "qualityRating": "a",
+    "status": "active",
+    "notes": "96万粉丝，知名游戏UP主。专注攒抽资源盘点和活动攻略。用户推荐。"
+  },
+  {
+    "id": "kateya",
+    "name": "卡特亚",
+    "platform": "bilibili",
+    "uid": "43222001",
+    "homepage": "https://space.bilibili.com/43222001",
+    "specialty": ["character-build", "tier-list", "theorycraft"],
+    "qualityRating": "s",
+    "status": "active",
+    "notes": "341万粉丝，2020百大UP主、2021年度巅峰主播。角色养成攻略、强度评测。用户推荐。"
+  },
+  {
+    "id": "tanyu-jitoushe",
+    "name": "贪欲九头蛇",
+    "platform": "bilibili",
+    "uid": "644663808",
+    "homepage": "https://space.bilibili.com/644663808",
+    "specialty": ["character-build", "abyss"],
+    "qualityRating": "a",
+    "status": "active",
+    "notes": "93.5万粉丝，知名游戏UP主。角色养成和深渊攻略。用户推荐。"
+  },
+  {
+    "id": "aniu-bunengchi",
+    "name": "阿牛不能吃",
+    "platform": "bilibili",
+    "uid": "1314450087",
+    "homepage": "https://space.bilibili.com/1314450087",
+    "specialty": ["exploration", "primogems-guide"],
+    "qualityRating": "a",
+    "status": "active",
+    "notes": "46.6万粉丝，知名游戏UP主。专注地图探索和宝箱攻略，探索度教程详尽。"
+  },
+  {
+    "id": "woju-mouren",
+    "name": "莴苣某人",
+    "platform": "bilibili",
+    "uid": "1773346",
+    "homepage": "https://space.bilibili.com/1773346",
+    "specialty": ["character-build", "primogems-guide", "event-guide"],
+    "qualityRating": "s",
+    "status": "active",
+    "notes": "553.9万粉丝，2022百大UP主。角色养成攻略全面，版本原石和活动攻略也有覆盖。"
+  },
+  {
+    "id": "yinyou-shiren-jide",
+    "name": "吟游诗人基德",
+    "platform": "bilibili",
+    "uid": "510856133",
+    "homepage": "https://space.bilibili.com/510856133",
+    "specialty": ["character-build", "tier-list", "news"],
+    "qualityRating": "s",
+    "status": "active",
+    "notes": "417.2万粉丝，知名UP主。角色强度评测、养成建议和版本资讯。"
+  }
+]

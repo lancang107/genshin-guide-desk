@@ -1,0 +1,249 @@
+[
+  {
+    "id": "nod-krai-chest-moon-one",
+    "kind": "chest-route",
+    "title": "挪德卡莱月之一宝箱路线",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "6.0",
+    "coverageSubregionIds": [
+      "nod-krai-lunbo-isle",
+      "nod-krai-xixi-isle",
+      "nod-krai-paha-isle"
+    ],
+    "coverageNotes": [
+      "伦波岛",
+      "希汐岛",
+      "帕哈岛"
+    ],
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "sigils": 0
+    },
+    "rewardMethod": "mixed",
+    "estimatedMinutes": {
+      "min": 300,
+      "typical": 351,
+      "max": 420
+    },
+    "difficulty": "hard",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1k3p5zDENe",
+        "title": "【原神宝箱全收集】挪德卡莱月之一(成就数299)伦波岛+希汐岛+帕哈岛/精准分类/路线规划/挪德卡莱宝箱攻略/月之印获取途径/原神6.0",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-snezh-008"
+      ],
+      "checkedAt": "2026-08-20",
+      "note": "影月月本人投稿已确认路线主题、覆盖的三个官方地图子区域和视频时长。视频标题未声明可独立计算的原石总数，因此不填入原石估算，也不与月之印奖励混算。"
+    },
+    "geographyStatus": "confirmed",
+    "sourceLabels": [
+      "挪德卡莱月之一"
+    ]
+  },
+  {
+    "id": "nod-krai-chest-moon-four",
+    "kind": "chest-route",
+    "title": "挪德卡莱月之四宝箱路线",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "6.3",
+    "coverageSubregionIds": [
+      "nod-krai-void-sea-lookout",
+      "nod-krai-wavechaser-wilds",
+      "nod-krai-yanluo-peak"
+    ],
+    "coverageNotes": [
+      "虚海望",
+      "逐浪野",
+      "烟硌山峰"
+    ],
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "sigils": 0
+    },
+    "rewardMethod": "mixed",
+    "estimatedMinutes": {
+      "min": 270,
+      "typical": 330,
+      "max": 390
+    },
+    "difficulty": "hard",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV17jkPBjELn",
+        "title": "【原神宝箱全收集】挪德卡莱月之四(成就数229)虚海望+逐浪野+烟硌山峰/精准分类/路线规划/挪德卡莱宝箱攻略/月之印获取途径/原神6.3",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-snezh-009"
+      ],
+      "checkedAt": "2026-08-20",
+      "note": "影月月本人投稿已确认路线主题、覆盖的三个官方地图子区域和视频时长。视频标题未声明可独立计算的原石总数，因此不填入原石估算，也不与月之印奖励混算。"
+    },
+    "geographyStatus": "confirmed",
+    "sourceLabels": [
+      "挪德卡莱月之四"
+    ]
+  },
+  {
+    "id": "nod-krai-chest-moon-eight",
+    "kind": "chest-route",
+    "title": "挪德卡莱月之八宝箱路线",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "coverageAreaIds": [
+      "frostmoon"
+    ],
+    "regionId": "snezhnaya",
+    "versionIntroduced": "6.7",
+    "coverageSubregionIds": [
+      "nod-krai-dunana-pit",
+      "frostmoon-main"
+    ],
+    "coverageNotes": [
+      "杜南纳深坑",
+      "霜月（原神官方互动地图独立切换区域）"
+    ],
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "sigils": 0
+    },
+    "rewardMethod": "mixed",
+    "estimatedMinutes": {
+      "min": 120,
+      "typical": 147,
+      "max": 180
+    },
+    "difficulty": "hard",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV19eT76tE8M",
+        "title": "【原神宝箱全收集】挪德卡莱月之八(成就数224)杜南纳深坑+霜月/精准分类/路线规划/挪德卡莱宝箱攻略/月之印获取途径/原神6.7",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-snezh-006"
+      ],
+      "checkedAt": "2026-08-20",
+      "note": "影月月本人投稿已确认路线主题、覆盖名称和时长。视频标题未声明可独立计算的原石总数，因此不填入原石估算，也不与月之印奖励混算。"
+    },
+    "geographyStatus": "confirmed",
+    "sourceLabels": [
+      "挪德卡莱月之八"
+    ]
+  },
+  {
+    "id": "snezh-chest-mainland-7-0",
+    "kind": "chest-route",
+    "title": "至冬7.0宝箱路线",
+    "countryId": "snezhnaya",
+    "areaId": "snezhnaya-mainland",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "coverageSubregionIds": [
+      "snezhnaya-ancient-beast-ice-plain",
+      "snezhnaya-emberfeather-valley",
+      "snezhnaya-everfrozen-tundra",
+      "snezhnaya-frostpeak",
+      "snezhnaya-white-birch-snowburial"
+    ],
+    "coverageNotes": [
+      "古兽冰原",
+      "焰羽谷",
+      "永凝冻土",
+      "霜殛寒峰",
+      "白桦雪葬地"
+    ],
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "sigils": 0
+    },
+    "rewardMethod": "mixed",
+    "estimatedMinutes": {
+      "min": 180,
+      "typical": 253,
+      "max": 300
+    },
+    "difficulty": "hard",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1JG8H6zEN3",
+        "title": "【原神宝箱全收集】至冬7.0(成就数345)古兽冰原+焰羽谷+永凝冻土+霜殛寒峰+白桦雪藏地/精准分类/路线规划/至冬宝箱攻略/冰之印获取途径/原神7.0",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-snezh-007"
+      ],
+      "checkedAt": "2026-08-20",
+      "note": "影月月本人投稿已确认本土五区的宝箱路线、成就数和视频时长。视频未声明可独立计算的原石总数，冰之印奖励也未折算，因此不填入原石估算。"
+    },
+    "geographyStatus": "confirmed",
+    "sourceLabels": [
+      "至冬7.0"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "7.0-observed-categories",
+  "note": "本表当前只注册至冬 7.0 新增成就所涉及的游戏内分类，不宣称是全游戏分类总表。名称以米游社成就汇总文章展示的游戏内分类为准，后续需用游戏内成就界面复核。",
+  "categories": [
+    { "id": "wonders-of-the-world", "name": "天地万象", "kind": "global", "versionLabel": null },
+    { "id": "worldly-travels-volume-7", "name": "尘世巡游·第七辑", "kind": "global-volume", "versionLabel": "第七辑" },
+    { "id": "meetings-in-outrealm-volume-7", "name": "异世相逢·第七辑", "kind": "global-volume", "versionLabel": "第七辑" },
+    { "id": "snezhnaya-ice-and-azure-star-capital-volume-1", "name": "至冬·冰与苍星的圣都·其之一", "kind": "regional-exploration", "versionLabel": "其之一" },
+    { "id": "swelling-shadows", "name": "浮涌的阴影之地", "kind": "system", "versionLabel": null }
+  ]
+}

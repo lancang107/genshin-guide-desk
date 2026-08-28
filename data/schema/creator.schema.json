@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "creator.schema.json",
+  "title": "Creator",
+  "description": "A vetted content creator in the guide source pool, including Bilibili and Miyoushe authors",
+  "type": "object",
+  "required": ["id", "name", "platform", "uid", "specialty", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique creator identifier, e.g. \"ying-yueyue\"",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name, e.g. \"你的影月月\""
+    },
+    "platform": {
+      "type": "string",
+      "enum": ["bilibili", "miyoushe", "youtube", "other"],
+      "description": "Primary platform for this creator."
+    },
+    "uid": {
+      "type": "string",
+      "description": "Platform user ID, e.g. Bilibili UID"
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "description": "Creator homepage URL"
+    },
+    "platformProfiles": {
+      "type": "array",
+      "description": "Optional verified profiles for the same creator on additional platforms.",
+      "items": {
+        "type": "object",
+        "required": ["platform", "uid", "homepage"],
+        "properties": {
+          "platform": { "type": "string", "enum": ["bilibili", "miyoushe", "youtube", "other"] },
+          "uid": { "type": "string" },
+          "homepage": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "specialty": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "primogems-guide",
+          "character-build",
+          "exploration",
+          "abyss",
+          "event-guide",
+          "tier-list",
+          "theorycraft",
+          "news",
+          "other"
+        ]
+      },
+      "description": "Content categories this creator is known for"
+    },
+    "qualityRating": {
+      "type": "string",
+      "enum": ["s", "a", "b"],
+      "description": "Editorial quality rating: s = consistently excellent, a = reliable, b = decent"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "inactive", "unknown"],
+      "description": "Whether the creator is still posting Genshin content"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional notes about content style or update frequency"
+    }
+  }
+}

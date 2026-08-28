@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "guide-package.schema.json",
+  "title": "Guide Package",
+  "description": "A curated checklist of primogems tasks and material plan for a specific player type and goal tier",
+  "type": "object",
+  "required": ["id", "version", "audience", "goalTier", "targetPrimogems", "title", "summary", "goal", "rankingStrategy", "resourcePool", "materialPlan"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique package identifier, e.g. \"returning-big-pity-5.2\"",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version this package belongs to, e.g. \"5.2\"",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "audience": {
+      "type": "string",
+      "enum": ["new", "returning", "active"],
+      "description": "new = just started; returning = came back after a break; active = keeps up daily"
+    },
+    "goalTier": {
+      "type": "string",
+      "enum": ["big-pity", "max"],
+      "description": "big-pity = save up to 180 pulls (28800 primogems) and stop; max = get as many as possible within banner duration"
+    },
+    "bannerPhase": {
+      "type": "integer",
+      "enum": [1, 2],
+      "description": "Which banner phase this package targets (1 or 2)"
+    },
+    "targetPrimogems": {
+      "type": "integer",
+      "description": "Target primogems this package aims to collect, e.g. 28800 for big pity"
+    },
+    "goal": {
+      "type": "object",
+      "description": "Default player objective. Users may refine it with their own stored account state.",
+      "required": ["mode", "banner", "defaultRequiredWishes"],
+      "properties": {
+        "mode": { "type": "string", "enum": ["fixed-wishes", "maximize"] },
+        "banner": { "type": "string", "enum": ["limited-character", "limited-weapon"] },
+        "defaultRequiredWishes": { "type": "integer", "minimum": 0 },
+        "note": { "type": "string" }
+      }
+    },
+    "rankingStrategy": {
+      "type": "object",
+      "description": "Controls how this package orders the shared resource pool.",
+      "required": ["sortOrder", "priorityWeights", "defaultDailyMinutes"],
+      "properties": {
+        "sortOrder": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["availability", "confidence", "deadline", "reward-per-minute", "priority", "exploration"] }
+        },
+        "priorityWeights": {
+          "type": "object",
+          "required": ["must-do", "recommended", "optional"],
+          "properties": {
+            "must-do": { "type": "integer" },
+            "recommended": { "type": "integer" },
+            "optional": { "type": "integer" }
+          }
+        },
+        "defaultDailyMinutes": { "type": "integer", "minimum": 0 },
+        "maxRecommendations": { "type": "integer", "minimum": 1 },
+        "note": { "type": "string" }
+      }
+    },
+    "title": {
+      "type": "string",
+      "description": "Display title, e.g. \"回坑玩家·大保底收手攻略\""
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short intro paragraph explaining who this package is for and what it covers"
+    },
+    "estimatedTotalHours": {
+      "type": "number",
+      "description": "Estimated total hours to complete all tasks"
+    },
+    "planWindow": {
+      "type": "object",
+      "description": "The remaining banner window used when this package was calculated.",
+      "required": ["calculatedAt", "bannerEndsAt", "remainingDays"],
+      "properties": {
+        "calculatedAt": { "type": "string", "format": "date" },
+        "bannerEndsAt": { "type": "string" },
+        "remainingDays": { "type": "integer", "minimum": 0 },
+        "note": { "type": "string" }
+      }
+    },
+    "resourcePool": {
+      "type": "array",
+      "description": "Candidate resources. The app orders unfinished entries according to rankingStrategy and user state.",
+      "items": {
+        "type": "object",
+        "required": ["sourceId", "priority", "status"],
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "description": "References a primogems-source.id from primogems.json"
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["must-do", "recommended", "optional"],
+            "description": "must-do = high value per time; recommended = good value; optional = low priority"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "in-progress", "done"],
+            "description": "Initial status. User updates this in the UI (localStorage)."
+          },
+          "availabilityStatus": {
+            "type": "string",
+            "enum": ["available", "conditional", "expired", "unconfirmed"],
+            "description": "Whether this task can be recommended on the package calculation date."
+          },
+          "note": {
+            "type": "string",
+            "description": "Package-specific note for this task, e.g. \"建议在活动后半段做\""
+          }
+        }
+      }
+    },
+    "materialPlan": {
+      "type": "object",
+      "description": "Sync material farming plan alongside primogems tasks",
+      "required": ["characterIds", "weeklySchedule"],
+      "properties": {
+        "characterIds": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "References character folder names in data/versions/{ver}/characters/"
+        },
+        "weeklySchedule": {
+          "type": "array",
+          "description": "Day-by-day farming plan for talent and weapon domains",
+          "items": {
+            "type": "object",
+            "required": ["day", "activities"],
+            "properties": {
+              "day": {
+                "type": "string",
+                "enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+              },
+              "activities": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["type", "target", "resin"],
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["talent-domain", "weapon-domain", "normal-boss", "weekly-boss", "ley-line-exp", "ley-line-mora", "artifact-domain", "exploration"]
+                    },
+                    "target": {
+                      "type": "string",
+                      "description": "What to farm, e.g. \"黄金天赋本\" or \"霓裳花采集\""
+                    },
+                    "resin": {
+                      "type": "integer",
+                      "description": "Resin cost for this activity"
+                    },
+                    "note": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "description": "Optional day-by-day suggested execution plan across the banner period",
+      "items": {
+        "type": "object",
+        "required": ["dayRange", "focus"],
+        "properties": {
+          "dayRange": {
+            "type": "string",
+            "description": "e.g. \"Day 1-3\" or \"Week 1\""
+          },
+          "focus": {
+            "type": "string",
+            "description": "What to prioritize in this period"
+          },
+          "taskIds": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Source IDs to focus on in this period"
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

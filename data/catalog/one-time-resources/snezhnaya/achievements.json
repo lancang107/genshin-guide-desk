@@ -1,0 +1,56 @@
+[
+  {
+    "id": "snezh-achievements-7-0",
+    "kind": "achievement-set",
+    "title": "至冬 7.0 新增成就（85 项）",
+    "countryId": "snezhnaya",
+    "areaId": "snezhnaya-mainland",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 625,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": ["游戏内成就界面已核验总额", "不记录任何个人达成状态"]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 0,
+      "typical": 0,
+      "max": 0
+    },
+    "difficulty": "hard",
+    "completionGranularity": "batch",
+    "achievementSummary": {
+      "itemCount": 85,
+      "verifiedPrimogems": 625,
+      "categories": [
+        { "name": "天地万象", "count": 37 },
+        { "name": "尘世巡游·第七辑", "count": 3 },
+        { "name": "异世相逢·第七辑", "count": 9 },
+        { "name": "至冬·冰与苍星的圣都·其之一", "count": 21 },
+        { "name": "浮涌的阴影之地", "count": 15 }
+      ]
+    },
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.miyoushe.com/ys/article/77367908",
+        "title": "【V7.0】原神7.0新增成就收集攻略（共计85个）",
+        "kind": "miyoushe"
+      },
+      {
+        "url": "https://www.miyoushe.com/ys/article/77351014",
+        "title": "【V7.0】版本新增成就",
+        "kind": "miyoushe"
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": ["ev-snezh-ach-001", "ev-snezh-ach-002", "ev-snezh-ach-game-001"],
+      "checkedAt": "2026-08-21",
+      "note": "85 条名单与五个游戏内分类由米游社资料和游戏内素材交叉确认。625 原石为版本成就总额；为避免与任务、宝箱、神瞳及探索成就重复统计，本条暂不进入套餐收益计算。单项条件与重叠关系会在后续逐条拆分。"
+    },
+    "sourceLabels": ["天地万象 37 项", "尘世巡游·第七辑 3 项", "异世相逢·第七辑 9 项", "至冬·冰与苍星的圣都·其之一 21 项", "浮涌的阴影之地 15 项"]
+  }
+]

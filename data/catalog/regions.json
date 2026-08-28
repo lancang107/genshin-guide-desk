@@ -1,0 +1,113 @@
+{
+  "modelVersion": "2.0",
+  "countries": [
+    { "id": "mondstadt", "name": "蒙德", "versionIntroduced": "1.0", "element": "anemo", "sortOrder": 1 },
+    { "id": "liyue", "name": "璃月", "versionIntroduced": "1.0", "element": "geo", "sortOrder": 2 },
+    { "id": "inazuma", "name": "稻妻", "versionIntroduced": "2.0", "element": "electro", "sortOrder": 3 },
+    { "id": "sumeru", "name": "须弥", "versionIntroduced": "3.0", "element": "dendro", "sortOrder": 4 },
+    { "id": "fontaine", "name": "枫丹", "versionIntroduced": "4.0", "element": "hydro", "sortOrder": 5 },
+    { "id": "natlan", "name": "纳塔", "versionIntroduced": "5.0", "element": "pyro", "sortOrder": 6 },
+    { "id": "snezhnaya", "name": "至冬", "versionIntroduced": "7.0", "element": "cryo", "sortOrder": 7 }
+  ],
+  "areas": [
+    { "id": "mondstadt-mainland", "name": "蒙德本土", "countryId": "mondstadt", "kind": "mainland", "versionIntroduced": "1.0" },
+    { "id": "dragonspine", "name": "龙脊雪山", "countryId": "mondstadt", "kind": "special-region", "versionIntroduced": "1.2" },
+    { "id": "sky-temple", "name": "空之神殿", "countryId": "mondstadt", "kind": "special-region", "versionIntroduced": "7.0", "verification": "confirmed", "evidenceIds": ["ev-geo-map-switch-001"], "note": "原神官方互动地图已将其列为可独立切换的地图区域；本项目归入蒙德。" },
+
+    { "id": "liyue-mainland", "name": "璃月本土", "countryId": "liyue", "kind": "mainland", "versionIntroduced": "1.0" },
+    { "id": "the-chasm", "name": "层岩巨渊", "countryId": "liyue", "kind": "special-region", "versionIntroduced": "2.6" },
+    { "id": "the-chasm-underground", "name": "层岩巨渊·地下矿区", "countryId": "liyue", "parentAreaId": "the-chasm", "kind": "underground-region", "versionIntroduced": "2.6" },
+
+    { "id": "inazuma-islands", "name": "稻妻群岛", "countryId": "inazuma", "kind": "mainland", "versionIntroduced": "2.0" },
+    { "id": "enkanomiya", "name": "渊下宫", "countryId": "inazuma", "kind": "underground-region", "versionIntroduced": "2.4" },
+
+    { "id": "sumeru-rainforest", "name": "须弥雨林", "countryId": "sumeru", "kind": "mainland", "versionIntroduced": "3.0" },
+    { "id": "sumeru-desert", "name": "须弥沙漠", "countryId": "sumeru", "kind": "mainland", "versionIntroduced": "3.1" },
+
+    { "id": "fontaine-mainland", "name": "枫丹主地图", "countryId": "fontaine", "kind": "mainland", "versionIntroduced": "4.0", "note": "官方地图分区通常同时覆盖水上与水下内容；水上/水下暂作为未来路线筛选维度，不拆为地理层级。" },
+    { "id": "sea-of-bygone-eras", "name": "旧日之海", "countryId": "fontaine", "kind": "special-region", "versionIntroduced": "4.6" },
+
+    { "id": "natlan-mainland", "name": "纳塔地上区域", "countryId": "natlan", "kind": "mainland", "versionIntroduced": "5.0" },
+    { "id": "ancient-sacred-mountain", "name": "远古圣山", "countryId": "natlan", "kind": "special-region", "versionIntroduced": "5.0" },
+
+    { "id": "snezhnaya-mainland", "name": "至冬本土", "countryId": "snezhnaya", "kind": "mainland", "versionIntroduced": "7.0" },
+    { "id": "nod-krai", "name": "挪德卡莱", "countryId": "snezhnaya", "kind": "autonomous-region", "versionIntroduced": "6.0" },
+    { "id": "frostmoon", "name": "霜月", "countryId": "snezhnaya", "kind": "special-region", "versionIntroduced": "6.7", "verification": "confirmed", "evidenceIds": ["ev-geo-map-switch-001"], "note": "原神官方互动地图已将其列为可独立切换的地图区域；本项目将其归入至冬国家层。" }
+  ],
+  "subregions": [
+    { "id": "mondstadt-windrest-hill", "name": "风息山", "countryId": "mondstadt", "areaId": "mondstadt-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "mondstadt-starfall-valley", "name": "坠星山谷", "countryId": "mondstadt", "areaId": "mondstadt-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "mondstadt-galesong-hill", "name": "风啸山坡", "countryId": "mondstadt", "areaId": "mondstadt-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "mondstadt-windwail-highland", "name": "苍风高地", "countryId": "mondstadt", "areaId": "mondstadt-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "mondstadt-brightcrown-mountains", "name": "明冠山地", "countryId": "mondstadt", "areaId": "mondstadt-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "mondstadt-dragonspine", "name": "龙脊雪山", "countryId": "mondstadt", "areaId": "dragonspine", "kind": "map-region", "versionIntroduced": "1.2" },
+
+    { "id": "liyue-bishui-plain", "name": "碧水原", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "liyue-qiongji-estuary", "name": "琼玑野", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "liyue-minlin", "name": "珉林", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "liyue-lisha", "name": "璃沙郊", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "liyue-sea-of-clouds", "name": "云来海", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "liyue-laixin-mountain", "name": "来歆山", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "1.0" },
+    { "id": "liyue-chenyu-vale-upper", "name": "沉玉谷·上谷", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "4.4" },
+    { "id": "liyue-chenyu-vale-southern", "name": "沉玉谷·南陵", "countryId": "liyue", "areaId": "liyue-mainland", "kind": "map-region", "versionIntroduced": "4.4" },
+    { "id": "liyue-chasm-surface", "name": "层岩巨渊", "countryId": "liyue", "areaId": "the-chasm", "kind": "map-region", "versionIntroduced": "2.6" },
+    { "id": "liyue-chasm-underground", "name": "层岩巨渊·地下矿区", "countryId": "liyue", "areaId": "the-chasm-underground", "kind": "map-region", "versionIntroduced": "2.6" },
+
+    { "id": "inazuma-narukami-island", "name": "鸣神岛", "countryId": "inazuma", "areaId": "inazuma-islands", "kind": "map-region", "versionIntroduced": "2.0" },
+    { "id": "inazuma-kannazuka", "name": "神无冢", "countryId": "inazuma", "areaId": "inazuma-islands", "kind": "map-region", "versionIntroduced": "2.0" },
+    { "id": "inazuma-yashiori-island", "name": "八酝岛", "countryId": "inazuma", "areaId": "inazuma-islands", "kind": "map-region", "versionIntroduced": "2.0" },
+    { "id": "inazuma-watatsumi-island", "name": "海祇岛", "countryId": "inazuma", "areaId": "inazuma-islands", "kind": "map-region", "versionIntroduced": "2.1" },
+    { "id": "inazuma-seirai-island", "name": "清籁岛", "countryId": "inazuma", "areaId": "inazuma-islands", "kind": "map-region", "versionIntroduced": "2.1" },
+    { "id": "inazuma-tsurumi-island", "name": "鹤观", "countryId": "inazuma", "areaId": "inazuma-islands", "kind": "map-region", "versionIntroduced": "2.2" },
+
+    { "id": "sumeru-avidya-forest", "name": "护世森", "countryId": "sumeru", "areaId": "sumeru-rainforest", "kind": "map-region", "versionIntroduced": "3.0" },
+    { "id": "sumeru-ardravi-valley", "name": "阿陀河谷", "countryId": "sumeru", "areaId": "sumeru-rainforest", "kind": "map-region", "versionIntroduced": "3.0" },
+    { "id": "sumeru-ashavan-realm", "name": "善见地", "countryId": "sumeru", "areaId": "sumeru-rainforest", "kind": "map-region", "versionIntroduced": "3.0" },
+    { "id": "sumeru-lokapala-jungle", "name": "道成林", "countryId": "sumeru", "areaId": "sumeru-rainforest", "kind": "map-region", "versionIntroduced": "3.0" },
+    { "id": "sumeru-vanarana", "name": "桓那兰那", "countryId": "sumeru", "areaId": "sumeru-rainforest", "kind": "map-region", "versionIntroduced": "3.0" },
+    { "id": "sumeru-ashavan-valley", "name": "二净甸", "countryId": "sumeru", "areaId": "sumeru-rainforest", "kind": "map-region", "versionIntroduced": "3.0" },
+    { "id": "sumeru-hypostyle-desert", "name": "列柱沙原", "countryId": "sumeru", "areaId": "sumeru-desert", "kind": "map-region", "versionIntroduced": "3.1" },
+    { "id": "sumeru-land-of-lower-setekh", "name": "下风蚀地", "countryId": "sumeru", "areaId": "sumeru-desert", "kind": "map-region", "versionIntroduced": "3.1" },
+    { "id": "sumeru-land-of-upper-setekh", "name": "上风蚀地", "countryId": "sumeru", "areaId": "sumeru-desert", "kind": "map-region", "versionIntroduced": "3.1" },
+    { "id": "sumeru-hadramaveth", "name": "千壑沙地", "countryId": "sumeru", "areaId": "sumeru-desert", "kind": "map-region", "versionIntroduced": "3.4" },
+    { "id": "sumeru-gavireh-lajavard", "name": "荒石苍漠", "countryId": "sumeru", "areaId": "sumeru-desert", "kind": "map-region", "versionIntroduced": "3.6" },
+    { "id": "sumeru-realm-of-farakhkert", "name": "浮罗囿", "countryId": "sumeru", "areaId": "sumeru-desert", "kind": "map-region", "versionIntroduced": "3.6" },
+    { "id": "sumeru-lost-nursery", "name": "失落的苗圃", "countryId": "sumeru", "areaId": "sumeru-rainforest", "kind": "map-region", "versionIntroduced": "3.0" },
+
+    { "id": "fontaine-belleau", "name": "白露区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.0" },
+    { "id": "fontaine-beryl", "name": "苍晶区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.0" },
+    { "id": "fontaine-court", "name": "枫丹廷区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.0" },
+    { "id": "fontaine-research-institute", "name": "枫丹动能工程科学研究院区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.1" },
+    { "id": "fontaine-liffey", "name": "黎翡区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.1" },
+    { "id": "fontaine-morte", "name": "莫尔泰区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.2" },
+    { "id": "fontaine-erinnyes", "name": "伊黎耶林区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.2" },
+    { "id": "fontaine-nostoi", "name": "诺思托伊区", "countryId": "fontaine", "areaId": "fontaine-mainland", "kind": "map-region", "versionIntroduced": "4.6" },
+
+    { "id": "natlan-tequemecan-valley", "name": "坚岩隘谷", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.0" },
+    { "id": "natlan-coatepec-mountain", "name": "万火之瓯", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.0" },
+    { "id": "natlan-toyactan-lake", "name": "涌流地", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.0" },
+    { "id": "natlan-ochkanatlan", "name": "奥奇卡纳塔", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.2" },
+    { "id": "natlan-atocpan", "name": "踞石山", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.5" },
+    { "id": "natlan-ancient-observation", "name": "翘枝崖", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.5" },
+    { "id": "natlan-easy-breeze", "name": "镜璧山", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.5" },
+    { "id": "natlan-ayanra-wilds", "name": "安饶之野", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.5" },
+    { "id": "natlan-easybreeze-holiday", "name": "悠悠度假村", "countryId": "natlan", "areaId": "natlan-mainland", "kind": "map-region", "versionIntroduced": "5.8" },
+    { "id": "nod-krai-paha-isle", "name": "帕哈岛", "countryId": "snezhnaya", "areaId": "nod-krai", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "nod-krai-xixi-isle", "name": "希汐岛", "countryId": "snezhnaya", "areaId": "nod-krai", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "nod-krai-lunbo-isle", "name": "伦波岛", "countryId": "snezhnaya", "areaId": "nod-krai", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "nod-krai-void-sea-lookout", "name": "虚海望", "countryId": "snezhnaya", "areaId": "nod-krai", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "nod-krai-wavechaser-wilds", "name": "逐浪野", "countryId": "snezhnaya", "areaId": "nod-krai", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "nod-krai-dunana-pit", "name": "杜南纳深坑", "countryId": "snezhnaya", "areaId": "nod-krai", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "nod-krai-yanluo-peak", "name": "烟硌山峰", "countryId": "snezhnaya", "areaId": "nod-krai", "kind": "map-region", "versionIntroduced": "7.0" },
+
+    { "id": "frostmoon-main", "name": "霜月", "countryId": "snezhnaya", "areaId": "frostmoon", "kind": "map-region", "versionIntroduced": "6.7", "verification": "confirmed", "evidenceIds": ["ev-geo-map-switch-001"] },
+
+    { "id": "snezhnaya-emberfeather-valley", "name": "焰羽谷", "countryId": "snezhnaya", "areaId": "snezhnaya-mainland", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "snezhnaya-ancient-beast-ice-plain", "name": "古兽冰原", "countryId": "snezhnaya", "areaId": "snezhnaya-mainland", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "snezhnaya-frostpeak", "name": "霜殛寒峰", "countryId": "snezhnaya", "areaId": "snezhnaya-mainland", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "snezhnaya-everfrozen-tundra", "name": "永凝冻土", "countryId": "snezhnaya", "areaId": "snezhnaya-mainland", "kind": "map-region", "versionIntroduced": "7.0" },
+    { "id": "snezhnaya-white-birch-snowburial", "name": "白桦雪葬地", "countryId": "snezhnaya", "areaId": "snezhnaya-mainland", "kind": "map-region", "versionIntroduced": "7.0" }
+  ],
+  "pointsOfInterest": [],
+  "notes": "正式地理层级为 country > area > subregion > poi。area 表示国家下的大陆大区、自治区域或特殊地图；subregion 才是风息山、明冠山地等地图分区。临时活动地图不进入此永久目录。旧 regionId 仅为资源数据兼容字段，将逐步迁移为 countryId + areaId + subregionId。"
+}

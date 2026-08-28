@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "nod-krai-wq-palace-collapsing",
+    "kind": "world-quest",
+    "title": "她的宫殿正坍塌向风雪",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 40,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 30,000",
+        "大英雄的经验 4"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 20,
+      "typical": 20,
+      "max": 20
+    },
+    "difficulty": "medium",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1",
+      "nod-krai-wq-abode-of-life",
+      "nod-krai-wq-hesperides",
+      "nod-krai-wq-palace-and-tomb"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV16fgV6iEfz",
+        "title": "【原神】她的宫殿正坍塌向风雪",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "需先收集灰眸的三个碎片，即完成任务4、5、6后才能继续。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-abode-of-life",
+    "kind": "world-quest",
+    "title": "在生命的寓所",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 260,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 205,000",
+        "大英雄的经验 20"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 80,
+      "typical": 80,
+      "max": 80
+    },
+    "difficulty": "medium",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1sbgG6MEgp",
+        "title": "【原神】在生命的寓所·上",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1HvgG6PEGv",
+        "title": "【原神】在生命的寓所·下",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "完成第一幕的“沉寂之地的枪声”并解锁至冬冒险笔记后，在焰羽谷七天神像南侧触发。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-hesperides",
+    "kind": "world-quest",
+    "title": "爱憎的赫斯珀利德斯",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 170,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 120,000",
+        "大英雄的经验 10"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 60,
+      "typical": 60,
+      "max": 60
+    },
+    "difficulty": "medium",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV14MgL6JEC3",
+        "title": "【原神】爱憎的赫斯珀利德斯",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "第一幕指定进度后，在彩冰镇取得“仪式”观礼请柬，并解锁霜殛寒峰七天神像后触发。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-palace-and-tomb",
+    "kind": "world-quest",
+    "title": "一边是宫殿一边是陵阙",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 90,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 60,000",
+        "大英雄的经验 9"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 40,
+      "typical": 40,
+      "max": 40
+    },
+    "difficulty": "medium",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-wq-abode-of-life",
+      "nod-krai-wq-hesperides"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1uHg56DEEt",
+        "title": "【原神】一边是宫殿一边是陵阙",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "完成“在生命的寓所”和“爱憎的赫斯珀利德斯”后自动接取。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-great-heart-chain",
+    "kind": "world-quest",
+    "title": "伟大的心锁于纤细之链（含后续两段）",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 70,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 70,000",
+        "大英雄的经验 2"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 38,
+      "typical": 38,
+      "max": 38
+    },
+    "difficulty": "medium",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1MPb963ERw",
+        "title": "【原神】伟大的心锁于纤细之链及后续",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "包含“伟大的心锁于纤细之链”(30)、“如迷宫囚禁她的奴仆”(20)与“为她所颂轻柔之歌”(20)；第二段需调至次日中午。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-vile-streets",
+    "kind": "world-quest",
+    "title": "卑劣者的穷街陋巷（含后续）",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 60,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 40,000",
+        "大英雄的经验 4"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 38,
+      "typical": 38,
+      "max": 38
+    },
+    "difficulty": "easy",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1gng56HEgH",
+        "title": "【原神】卑劣者的穷街陋巷",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "包含“烧去仓房与马棚”(30)与“无仁义的争执”(30)。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-forestry-snowfield",
+    "kind": "world-quest",
+    "title": "林场雪原",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 30,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "珍贵的宝箱",
+        "摩拉 100,000"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 10,
+      "typical": 10,
+      "max": 10
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-wq-vile-streets"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1YdbX62EMj",
+        "title": "【原神】林场雪原",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "完成“卑劣者的穷街陋巷”后，在海屑镇南侧触发。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-under-the-waves",
+    "kind": "world-quest",
+    "title": "时常于水波之下（含后续两段）",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 80,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 65,000",
+        "大英雄的经验 2"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 12,
+      "typical": 12,
+      "max": 12
+    },
+    "difficulty": "easy",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1SPb963EAt",
+        "title": "【原神】时常于水波之下及后续",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "包含“时常于水波之下”(30)、“沉船驶过，没有敲钟”(30)和“在回环的宁静中”(20)。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-ice-mirror-fragment",
+    "kind": "world-quest",
+    "title": "为寻一块冰镜的碎片",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 20,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 25,000"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 8,
+      "typical": 8,
+      "max": 8
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1GdbX62EaZ",
+        "title": "【原神】为寻一块冰镜的碎片",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "进入霜殛寒峰七天神像南侧山洞自动触发。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-frost-spirit-troubles",
+    "kind": "world-quest",
+    "title": "小小霜精大大烦恼",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 30,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 20,000",
+        "大英雄的经验 2"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 20,
+      "typical": 20,
+      "max": 20
+    },
+    "difficulty": "medium",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1YdbX62EFq",
+        "title": "【原神】小小霜精大大烦恼",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "在霜精的村落帮助3只霜精后触发。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-hunters-cabin",
+    "kind": "world-quest",
+    "title": "巡猎者木屋·聚所纪事",
+    "settlement": {
+      "id": "hunters-cabin",
+      "name": "巡猎者木屋",
+      "kind": "聚所"
+    },
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉",
+        "大英雄的经验",
+        "聚所共建的现实次日刷新前置"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 30,
+      "typical": 45,
+      "max": 60
+    },
+    "difficulty": "medium",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1",
+      "nod-krai-wq-vile-streets"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1ECbX6REsL",
+        "title": "【原神】雪原上的猎手+影域的遗留/巡猎者木屋/聚所纪事·其一+其二/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1BCbX6REoH",
+        "title": "【原神】曙光的一缕/巡猎者木屋/聚所纪事·其三/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV172bX6XEPm",
+        "title": "【原神】雪后曙光/成就《睁开被逸夜合拢的眼睛》/列车装饰指南/曙光车站振兴/聚所纪事·其四/巡猎者木屋/汐歌洞窟/剧院/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "聚所纪事属于世界任务，完成后不直接获得原石；它是“儿时的快乐”和三聚所共同后续的前置。聚所共建的徽印供奉奖励另列。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-theater",
+    "kind": "world-quest",
+    "title": "科洛列夫茨基剧院·聚所纪事",
+    "settlement": {
+      "id": "korolevsky-theater",
+      "name": "科洛列夫茨基剧院",
+      "kind": "聚所"
+    },
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉",
+        "大英雄的经验",
+        "聚所共建解锁与剧情奖励"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 40,
+      "typical": 55,
+      "max": 70
+    },
+    "difficulty": "medium",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1JkbX6xEMb",
+        "title": "【原神】未谢幕者/科洛列夫茨基剧院/聚所纪事/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1zkbX6xEi8",
+        "title": "【原神】白与黑的变奏舞/隐藏成就《翔舞翱天的黑雪鹄》/科洛列夫茨基剧院/聚所纪事·其二/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1j2bX6XEJW",
+        "title": "【原神】浮雪之上/科洛列夫茨基剧院/聚所纪事/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "聚所纪事属于世界任务，完成后不直接获得原石；聚所共建的徽印供奉奖励另列。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-tide-song-cave",
+    "kind": "world-quest",
+    "title": "汐歌洞窟·聚所纪事",
+    "settlement": {
+      "id": "tide-song-cave",
+      "name": "汐歌洞窟",
+      "kind": "聚所"
+    },
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉",
+        "大英雄的经验",
+        "第二阶段敬请期待"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 18,
+      "typical": 30,
+      "max": 45
+    },
+    "difficulty": "easy",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1BkbX6xEXQ",
+        "title": "【原神】如汐歌幽诉之地+潮自回声/汐歌洞窟/聚所纪事·其一/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1j1bX6WEdY",
+        "title": "【原神】待访曙光/汐歌洞窟/聚所纪事·其三/聚所任务/原神7.0/至冬7.0世界任务",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "聚所纪事属于世界任务，完成后不直接获得原石；它为后续“潮自回声”等任务前置。聚所共建的徽印供奉奖励另列。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-tide-echo",
+    "kind": "world-quest",
+    "title": "潮自回声",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 20,000",
+        "大英雄的经验 2"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 1,
+      "typical": 1,
+      "max": 1
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-wq-tide-song-cave"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1BkbX6xEXQ",
+        "title": "【原神】如汐歌幽诉之地及潮自回声·聚所纪事",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "完成汐歌洞窟第一阶段后自动接取。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-childhood-joy",
+    "kind": "world-quest",
+    "title": "儿时的快乐",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 20,000",
+        "大英雄的经验 2"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 1,
+      "typical": 1,
+      "max": 1
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-wq-hunters-cabin"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1C4836EE7i",
+        "title": "【原神】儿时的快乐",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "触发方式可能受游戏状态影响；文章提供了与别尔斯基、别斯特洛夫、谢列布罗夫对话并调至次日的参考步骤。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-like-snowball",
+    "kind": "world-quest",
+    "title": "像一个雪球一样",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "奇馈宝箱"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 5,
+      "typical": 5,
+      "max": 5
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1GRbX67EBa",
+        "title": "【原神】像一个雪球一样",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "在至冬堡指定位置靠近三人组触发；奇馈宝箱不计抽卡资源。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-simple-errand",
+    "kind": "world-quest",
+    "title": "简单零工",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 20,000",
+        "大英雄的经验 2"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 5,
+      "typical": 5,
+      "max": 5
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1GdbX62Ebz",
+        "title": "【原神】简单零工",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "在彩冰镇与索博列夫对话接取。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-range-and-shadow",
+    "kind": "world-quest",
+    "title": "靶场与深度影域",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 20,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 10,000"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 1,
+      "typical": 1,
+      "max": 1
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-wq-palace-and-tomb"
+    ],
+    "guideLinks": [],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "进行“一边是宫殿一边是陵阙”至击败兽后自动接取，并解锁靶场功能。\n靶场系列为原神引导/功能教学任务，无需额外攻略链接。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-special-selection",
+    "kind": "world-quest",
+    "title": "一场特殊的选拔",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 10,000",
+        "冒险家的经验 4",
+        "解锁每周任务“危影重重”"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 3,
+      "typical": 3,
+      "max": 3
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act2"
+    ],
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1GRbX67E6n",
+        "title": "【原神】一场特殊的选拔",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "完成第二幕后自动接取。后续“危影重重”为每周任务，不属于一次性资源。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-adventure-far-away",
+    "kind": "world-quest",
+    "title": "冒险就要朝着远方",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 20,000",
+        "冒险家的经验 4",
+        "解锁至冬每日委托"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 1,
+      "typical": 1,
+      "max": 1
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-19",
+      "note": "第一幕推进至“冰原上的伟业”并到达至冬堡后自动接取；完成后解锁至冬地区每日委托。\n“冒险就要朝着远方”为解锁每日委托的引导任务，无需额外攻略链接。"
+    }
+  },
+  {
+    "id": "nod-krai-wq-ball-ball-sparrowball",
+    "kind": "world-quest",
+    "title": "哐哐当当雀雀球",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0,
+      "other": [
+        "摩拉 180,000（共 3 次）",
+        "大英雄的经验 18（共 3 次）"
+      ]
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 6,
+      "typical": 6,
+      "max": 10
+    },
+    "difficulty": "easy",
+    "completionGranularity": "batch",
+    "prerequisiteIds": [
+      "nod-krai-wq-tide-song-cave"
+    ],
+    "guideLinks": [],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-21",
+      "note": "米游社 7.0 常驻任务清单于 8 月 20 日补入。完成汐歌洞窟第三个任务“待访曙光”后，现实次日刷新前往曙光车站与迈斯卡娅对话即可进行；共可完成 3 次，每次间隔至现实次日。游戏内未显示独立任务名称，原文依据任务奖励和冒险阅历将该玩法归为世界任务。当前未核验到影月月对应的执行视频，因此不填充池外攻略链接。"
+    }
+  }
+]

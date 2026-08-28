@@ -1,0 +1,140 @@
+[
+  {
+    "id": "snezh-one-dragon-nod-krai-7-0",
+    "kind": "one-dragon-guide",
+    "title": "影月月·至冬本土一条龙（7.0）",
+    "countryId": "snezhnaya",
+    "areaId": "snezhnaya-mainland",
+    "subregionIds": [
+      "snezhnaya-emberfeather-valley",
+      "snezhnaya-ancient-beast-ice-plain",
+      "snezhnaya-frostpeak",
+      "snezhnaya-everfrozen-tundra",
+      "snezhnaya-white-birch-snowburial"
+    ],
+    "versionIntroduced": "7.0",
+    "creatorId": "ying-yueyue",
+    "guideLinks": [
+      {
+        "url": "https://www.bilibili.com/video/BV1BMgj6MEz4",
+        "title": "【原神一条龙全收集】至冬7.0",
+        "kind": "creator",
+        "creatorId": "ying-yueyue",
+        "publisherVerification": {
+          "status": "confirmed",
+          "creatorId": "ying-yueyue",
+          "checkedAt": "2026-08-20",
+          "sourceUrl": "https://space.bilibili.com/431073645/upload/video"
+        }
+      }
+    ],
+    "coverage": {
+      "resourceIds": [
+        "snezh-chest-mainland-7-0",
+        "snezh-oculus-mainland-7-0"
+      ],
+      "declaredItems": [
+        "一条龙视频覆盖至冬本土五个子区域：古兽冰原、焰羽谷、永凝冻土、霜殛寒峰、白桦雪葬地。",
+        "视频标注成就数345、冰神瞳140、摩拉箱120、影生翼滴58；成就数仅作为视频覆盖声明，至冬7.0成就档案完成逐项核验前不建立自动完成关系。",
+        "挪德卡莱的世界任务、聚所纪事和其他路线不属于本条一条龙覆盖范围。"
+      ],
+      "disclaimer": "覆盖关系先按视频声明录入，用户跟随后必须逐项二次确认；未在视频中明确完成的项目不要确认。"
+    },
+    "estimatedMinutes": {
+      "min": 180,
+      "typical": 420,
+      "max": 600
+    },
+    "verification": {
+      "status": "declared",
+      "evidenceIds": [
+        "ev-snezh-007"
+      ],
+      "checkedAt": "2026-08-20"
+    }
+  },
+  {
+    "id": "nod-krai-one-dragon-moon-one",
+    "kind": "one-dragon-guide",
+    "title": "影月月·挪德卡莱月之一一条龙",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "subregionIds": ["nod-krai-lunbo-isle", "nod-krai-xixi-isle", "nod-krai-paha-isle"],
+    "versionIntroduced": "6.0",
+    "creatorId": "ying-yueyue",
+    "guideLinks": [{
+      "url": "https://www.bilibili.com/video/BV1CMHQzsEJV",
+      "title": "【原神一条龙全收集】挪德卡莱月之一",
+      "kind": "creator",
+      "creatorId": "ying-yueyue",
+      "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-21", "sourceUrl": "https://space.bilibili.com/431073645/lists" }
+    }],
+    "coverage": {
+      "resourceIds": ["nod-krai-chest-moon-one"],
+      "declaredItems": [
+        "视频覆盖伦波岛、希汐岛、帕哈岛，并声明宝箱成就数 299、月神瞳 112、摩拉箱 93、玉帛 12。",
+        "视频说明列出世界任务“莫雷谷的伙伴们”“哀铃的余响”“要事优先”“援助小队的诉说”“厨子的诉说”。",
+        "月神瞳路线目前以全区域总路线管理，因此本条不会自动确认全部 271 个月神瞳。"
+      ],
+      "disclaimer": "仅将对应的月之一宝箱路线设为可逐项确认；任务、月神瞳与月之印的覆盖声明保留为执行参考，等待它们拆分为独立资源项后再建立完成关系。"
+    },
+    "estimatedMinutes": { "min": 240, "typical": 267, "max": 300 },
+    "verification": { "status": "declared", "evidenceIds": ["ev-snezh-012"], "checkedAt": "2026-08-21" }
+  },
+  {
+    "id": "nod-krai-one-dragon-moon-four",
+    "kind": "one-dragon-guide",
+    "title": "影月月·挪德卡莱月之四一条龙",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "subregionIds": ["nod-krai-void-sea-lookout", "nod-krai-wavechaser-wilds", "nod-krai-yanluo-peak"],
+    "versionIntroduced": "6.3",
+    "creatorId": "ying-yueyue",
+    "guideLinks": [{
+      "url": "https://www.bilibili.com/video/BV1qprpBcEZN",
+      "title": "【原神一条龙全收集】挪德卡莱月之四",
+      "kind": "creator",
+      "creatorId": "ying-yueyue",
+      "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-21", "sourceUrl": "https://space.bilibili.com/431073645/lists" }
+    }],
+    "coverage": {
+      "resourceIds": ["nod-krai-chest-moon-four"],
+      "declaredItems": [
+        "视频覆盖虚海望、逐浪野、烟硌山峰，并声明宝箱成就数 229、月神瞳 80、摩拉箱 71、摩拉盒 10、玉帛 8。",
+        "视频说明列出世界任务“英灵的残响”“放逐者的荒歌”。",
+        "月神瞳路线目前以全区域总路线管理，因此本条不会自动确认全部 271 个月神瞳。"
+      ],
+      "disclaimer": "仅将对应的月之四宝箱路线设为可逐项确认；任务、月神瞳与月之印的覆盖声明保留为执行参考，等待它们拆分为独立资源项后再建立完成关系。"
+    },
+    "estimatedMinutes": { "min": 135, "typical": 155, "max": 180 },
+    "verification": { "status": "declared", "evidenceIds": ["ev-snezh-013"], "checkedAt": "2026-08-21" }
+  },
+  {
+    "id": "nod-krai-one-dragon-moon-eight",
+    "kind": "one-dragon-guide",
+    "title": "影月月·挪德卡莱月之八一条龙",
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai",
+    "subregionIds": ["nod-krai-dunana-pit", "frostmoon-main"],
+    "versionIntroduced": "6.7",
+    "creatorId": "ying-yueyue",
+    "guideLinks": [{
+      "url": "https://www.bilibili.com/video/BV1uMTY6aEZv",
+      "title": "【原神一条龙全收集】挪德卡莱月之八",
+      "kind": "creator",
+      "creatorId": "ying-yueyue",
+      "publisherVerification": { "status": "confirmed", "creatorId": "ying-yueyue", "checkedAt": "2026-08-21", "sourceUrl": "https://space.bilibili.com/431073645/lists" }
+    }],
+    "coverage": {
+      "resourceIds": ["nod-krai-chest-moon-eight"],
+      "declaredItems": [
+        "视频覆盖杜南纳深坑、霜月，并声明宝箱成就数 224、月神瞳 79、摩拉箱 68、玉帛 6。",
+        "视频说明列出世界任务“序列之始”“月海之下”。",
+        "月神瞳路线目前以全区域总路线管理，因此本条不会自动确认全部 271 个月神瞳。"
+      ],
+      "disclaimer": "仅将对应的月之八宝箱路线设为可逐项确认；任务、月神瞳与月之印的覆盖声明保留为执行参考，等待它们拆分为独立资源项后再建立完成关系。"
+    },
+    "estimatedMinutes": { "min": 150, "typical": 177, "max": 210 },
+    "verification": { "status": "declared", "evidenceIds": ["ev-snezh-014"], "checkedAt": "2026-08-21" }
+  }
+]

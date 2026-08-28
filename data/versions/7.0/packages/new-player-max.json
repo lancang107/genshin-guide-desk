@@ -1,0 +1,420 @@
+{
+  "id": "new-player-max-7.0",
+  "version": "7.0",
+  "audience": "new",
+  "goalTier": "max",
+  "bannerPhase": 1,
+  "targetPrimogems": 60000,
+  "goal": {
+    "mode": "maximize",
+    "banner": "limited-character",
+    "defaultRequiredWishes": 0,
+    "note": "没有固定抽数上限；持续推荐未完成且高性价比的永久和限时资源。"
+  },
+  "rankingStrategy": {
+    "sortOrder": [
+      "availability",
+      "deadline",
+      "confidence",
+      "reward-per-minute",
+      "exploration",
+      "priority"
+    ],
+    "priorityWeights": {
+      "must-do": 280,
+      "recommended": 210,
+      "optional": 120
+    },
+    "defaultDailyMinutes": 120,
+    "maxRecommendations": 8,
+    "note": "保留完整资源池，时间充裕时主动扩大探索、任务和成就批次。"
+  },
+  "title": "新玩家 · 尽量多拿攻略",
+  "summary": "适合时间充裕的新玩家。新玩家有海量一次性原石来源（蒙德到至冬全地图探索+全任务+全成就），加上7.0新内容和周年庆福利，可以获得大量原石。本套餐穷举所有来源，适合想同时抽多个角色或冲命座的玩家。对于时间自由的新玩家，本套餐也作为优质攻略导航使用。",
+  "estimatedTotalHours": 80,
+  "planWindow": {
+    "calculatedAt": "2026-08-17",
+    "bannerEndsAt": "2026-09-01T17:59:00+08:00",
+    "remainingDays": 15,
+    "note": "原80小时计划需平均每天约5.3小时。新玩家尚未录入的旧版本一次性资源不计入本套餐的保证资源。"
+  },
+  "resourcePool": [
+    {
+      "sourceId": "maintenance-compensation",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "preview-livestream-codes",
+      "priority": "optional",
+      "status": "pending",
+      "availabilityStatus": "expired",
+      "note": "前瞻兑换码已过有效期，不计入 8 月 17 日起的计划。"
+    },
+    {
+      "sourceId": "daily-commission-phase1",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "stardust-exchange",
+      "priority": "recommended",
+      "status": "pending",
+      "availabilityStatus": "conditional",
+      "note": "需要已有星尘，不作为无条件可得原石。"
+    },
+    {
+      "sourceId": "starglitter-exchange",
+      "priority": "optional",
+      "status": "pending",
+      "availabilityStatus": "conditional",
+      "note": "需要已有星辉；按 5 星辉兑换 1 纠缠之缘，无兑换上限，不计入固定收益。"
+    },
+    {
+      "sourceId": "battle-pass-free",
+      "priority": "optional",
+      "status": "pending",
+      "availabilityStatus": "conditional",
+      "note": "相遇之缘不能用于限定角色池。"
+    },
+    {
+      "sourceId": "archon-quest-7.0",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "new-bud-support-first-snowfield",
+      "priority": "must-do",
+      "status": "pending",
+      "availabilityStatus": "expired",
+      "note": "已于 8 月 24 日截止，保留作归档。"
+    },
+    {
+      "sourceId": "snezhnaya-travel-handbook",
+      "priority": "must-do",
+      "status": "pending",
+      "availabilityStatus": "expired",
+      "note": "已于 8 月 25 日截止，保留作归档。"
+    },
+    {
+      "sourceId": "qiyu-treasure",
+      "priority": "recommended",
+      "status": "pending"
+    },
+    {
+      "sourceId": "stygian-onslaught-7-0",
+      "priority": "optional",
+      "status": "pending",
+      "note": "高难挑战，不计入攒石目标。"
+    },
+    {
+      "sourceId": "heated-battle-mode-7-0",
+      "priority": "optional",
+      "status": "pending",
+      "note": "无原石奖励，按兴趣完成。"
+    },
+    {
+      "sourceId": "teapot-exchange",
+      "priority": "optional",
+      "status": "pending",
+      "availabilityStatus": "available",
+      "note": "仅提供养成资源，不计入抽卡资源。"
+    },
+    {
+      "sourceId": "exploration-snezhnaya-chests",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "exploration-cryo-oculi",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "world-quest-snezhnaya",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "domain-first-clears-snezhnaya",
+      "priority": "must-do",
+      "status": "pending",
+      "note": "养成需要材料时优先首通"
+    },
+    {
+      "sourceId": "offerings-snezhnaya",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "achievements-7.0",
+      "priority": "must-do",
+      "status": "pending"
+    },
+    {
+      "sourceId": "spiral-abyss-first-clear",
+      "priority": "must-do",
+      "status": "pending",
+      "note": "新玩家首通层数多，收益极高"
+    },
+    {
+      "sourceId": "spiral-abyss-reset",
+      "priority": "recommended",
+      "status": "pending",
+      "note": "视练度"
+    },
+    {
+      "sourceId": "imaginary-theater-first-performance",
+      "priority": "recommended",
+      "status": "pending",
+      "note": "一次性初演馈赠，需要多角色。"
+    },
+    {
+      "sourceId": "imaginary-theater-seasonal-tour",
+      "priority": "recommended",
+      "status": "pending",
+      "note": "轮换巡演奖励，需要多角色。"
+    }
+  ],
+  "materialPlan": {
+    "characterIds": [
+      "aodata",
+      "arlechino"
+    ],
+    "weeklySchedule": [
+      {
+        "day": "mon",
+        "activities": [
+          {
+            "type": "talent-domain",
+            "target": "慈爱系列",
+            "resin": 20,
+            "note": "奥黛塔"
+          },
+          {
+            "type": "weapon-domain",
+            "target": "无垢系列",
+            "resin": 20,
+            "note": "阿蕾奇诺"
+          },
+          {
+            "type": "weapon-domain",
+            "target": "荒野树妖系列",
+            "resin": 20,
+            "note": "奥黛塔"
+          }
+        ]
+      },
+      {
+        "day": "tue",
+        "activities": [
+          {
+            "type": "talent-domain",
+            "target": "秩序系列",
+            "resin": 20,
+            "note": "阿蕾奇诺"
+          },
+          {
+            "type": "normal-boss",
+            "target": "铁甲熔炉",
+            "resin": 40,
+            "note": "阿蕾奇诺"
+          },
+          {
+            "type": "exploration",
+            "target": "虹彩蔷薇采集",
+            "resin": 0,
+            "note": "阿蕾奇诺"
+          }
+        ]
+      },
+      {
+        "day": "wed",
+        "activities": [
+          {
+            "type": "normal-boss",
+            "target": "不灭衍生造物",
+            "resin": 40,
+            "note": "奥黛塔"
+          },
+          {
+            "type": "artifact-domain",
+            "target": "炉火融炼之心 / 谐律异想断套",
+            "resin": 40,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          },
+          {
+            "type": "exploration",
+            "target": "霜仙花采集",
+            "resin": 0,
+            "note": "奥黛塔"
+          },
+          {
+            "type": "exploration",
+            "target": "敌人掉落",
+            "resin": 0,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          }
+        ]
+      },
+      {
+        "day": "thu",
+        "activities": [
+          {
+            "type": "talent-domain",
+            "target": "慈爱系列",
+            "resin": 20,
+            "note": "奥黛塔"
+          },
+          {
+            "type": "weapon-domain",
+            "target": "无垢系列",
+            "resin": 20,
+            "note": "阿蕾奇诺"
+          },
+          {
+            "type": "weapon-domain",
+            "target": "荒野树妖系列",
+            "resin": 20,
+            "note": "奥黛塔"
+          }
+        ]
+      },
+      {
+        "day": "fri",
+        "activities": [
+          {
+            "type": "talent-domain",
+            "target": "秩序系列",
+            "resin": 20,
+            "note": "阿蕾奇诺"
+          },
+          {
+            "type": "normal-boss",
+            "target": "铁甲熔炉",
+            "resin": 40,
+            "note": "阿蕾奇诺"
+          },
+          {
+            "type": "artifact-domain",
+            "target": "炉火融炼之心 / 谐律异想断套",
+            "resin": 40,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          },
+          {
+            "type": "exploration",
+            "target": "虹彩蔷薇采集",
+            "resin": 0,
+            "note": "阿蕾奇诺"
+          }
+        ]
+      },
+      {
+        "day": "sat",
+        "activities": [
+          {
+            "type": "weekly-boss",
+            "target": "多托雷 / 仆人周本",
+            "resin": 60,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          },
+          {
+            "type": "normal-boss",
+            "target": "不灭衍生造物",
+            "resin": 40,
+            "note": "奥黛塔"
+          },
+          {
+            "type": "exploration",
+            "target": "霜仙花采集",
+            "resin": 0,
+            "note": "奥黛塔"
+          },
+          {
+            "type": "exploration",
+            "target": "敌人掉落",
+            "resin": 0,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          }
+        ]
+      },
+      {
+        "day": "sun",
+        "activities": [
+          {
+            "type": "talent-domain",
+            "target": "慈爱系列 / 秩序系列",
+            "resin": 20,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          },
+          {
+            "type": "weapon-domain",
+            "target": "荒野树妖系列 / 无垢系列",
+            "resin": 20,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          },
+          {
+            "type": "artifact-domain",
+            "target": "炉火融炼之心 / 谐律异想断套",
+            "resin": 40,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          },
+          {
+            "type": "exploration",
+            "target": "敌人掉落",
+            "resin": 0,
+            "note": "奥黛塔 / 阿蕾奇诺"
+          }
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "dayRange": "第1-3天",
+      "focus": "福利全领 + 主线全通 + 旧区域快速开图",
+      "taskIds": [
+        "maintenance-compensation",
+        "archon-quest-7.0"
+      ],
+      "notes": "优先领福利和推主线。新玩家还需完成前置章节才能进入至冬"
+    },
+    {
+      "dayRange": "第4-7天",
+      "focus": "7.0至冬全探索",
+      "taskIds": [
+        "exploration-snezhnaya-chests",
+        "exploration-cryo-oculi",
+        "daily-commission-phase1"
+      ],
+      "notes": "跟影月月一条龙全探索至冬。这是新玩家最大的原石来源"
+    },
+    {
+      "dayRange": "第8-11天",
+      "focus": "活动 + 世界任务 + 成就",
+      "taskIds": [
+        "qiyu-treasure",
+        "stygian-onslaught-7-0",
+        "heated-battle-mode-7-0",
+        "world-quest-snezhnaya",
+        "achievements-7.0"
+      ],
+      "notes": "完成所有版本活动、世界任务和成就"
+    },
+    {
+      "dayRange": "第12-15天",
+      "focus": "深渊首通 + 剧诗 + 兑换",
+      "taskIds": [
+        "spiral-abyss-first-clear",
+        "spiral-abyss-reset",
+        "imaginary-theater-first-performance",
+        "imaginary-theater-seasonal-tour",
+        "stardust-exchange",
+        "starglitter-exchange",
+        "battle-pass-free",
+        "teapot-exchange"
+      ],
+      "notes": "新玩家深渊首通收益极高。确认所有兑换和来源"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.DS_Store
+成就/
+node_modules/
+npm-debug.log*
+dist/
+.vercel/
+.netlify/
+.vscode/
+.idea/

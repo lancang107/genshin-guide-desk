@@ -1,0 +1,36 @@
+[
+  {
+    "id": "snezh-domain-frost-sanctuary",
+    "kind": "domain-first-clear",
+    "title": "至冬秘境首通（天赋/武器/圣遗物本）",
+    "regionId": "snezhnaya",
+    "versionIntroduced": "7.0",
+    "rewards": {
+      "primogems": 0,
+      "intertwinedFates": 0,
+      "acquaintFates": 0
+    },
+    "rewardMethod": "direct",
+    "estimatedMinutes": {
+      "min": 10,
+      "typical": 15,
+      "max": 20
+    },
+    "difficulty": "easy",
+    "completionGranularity": "resource",
+    "prerequisiteIds": [
+      "nod-krai-archon-7-act1"
+    ],
+    "guideLinks": [],
+    "verification": {
+      "status": "confirmed",
+      "evidenceIds": [
+        "ev-nod-krai-007"
+      ],
+      "checkedAt": "2026-08-27",
+      "note": "用户确认常驻秘境首通无原石奖励，已按0原石归档；执行攻略无需填写。"
+    },
+    "countryId": "snezhnaya",
+    "areaId": "nod-krai"
+  }
+]
